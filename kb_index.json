@@ -60,7 +60,34 @@
     { "slug": "materials_decals_impact-polish", "title": "Impact Decals — Polish", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/decals__impact-polish__v1.md", "tags": ["decal","impact","polish","source:book:butler"] },
     { "slug": "materials_instances_tuning-workflow", "title": "Material Instances — Fast Tuning Workflow", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/instances__tuning-workflow__v1.md", "tags": ["instances","workflow","source:book:butler"] },
     { "slug": "niagara_bounds_setup-cookbook", "title": "Niagara Bounds — Setup Cookbook", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/bounds__setup-cookbook__v1.md", "tags": ["bounds","culling","source:book:butler"] },
-    { "slug": "bp_line-trace_impact-spawn", "title": "BP Line Trace → Impact FX Spawn", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/line-trace__impact-spawn__v1.md", "tags": ["line-trace","impact","spawn","source:book:butler"] }
+    { "slug": "bp_line-trace_impact-spawn", "title": "BP Line Trace → Impact FX Spawn", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/line-trace__impact-spawn__v1.md", "tags": ["line-trace","impact","spawn","source:book:butler"] },
+
+    
+    { "slug": "materials_respawn_energy-base", "title": "Respawn: Energy Base (Materials)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__respawn-energy-base__v1.md", "tags": ["sci-fi","respawn","base"] },
+    { "slug": "materials_respawn_character-overlay", "title": "Respawn: Character Overlay (Materials)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__respawn-character-overlay__v1.md", "tags": ["sci-fi","respawn","overlay"] },
+    { "slug": "materials_respawn_polygon-spawn-particles", "title": "Respawn: Polygon Spawn Particles (Materials)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__respawn-polygon-spawn-particles__v1.md", "tags": ["sci-fi","respawn","subuv"] },
+    { "slug": "niagara_respawn_platform-energy-base", "title": "Respawn: Platform Energy Base (Niagara)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/niagara__respawn-platform-energy-base__v1.md", "tags": ["sci-fi","respawn","gpu-sprites"] },
+    { "slug": "niagara_respawn_character-polygon-spawn", "title": "Respawn: Character Polygon Spawn (Niagara)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/niagara__respawn-character-polygon-spawn__v1.md", "tags": ["sci-fi","respawn","subuv"] },
+    { "slug": "bp_respawn_level-slowmo-respawn", "title": "Respawn: Level Slow-Mo & Respawn (Blueprints)", "domain": "bp", "level": "intermediate", "engine": "UE5", "path": "bp/bp__respawn-level-slowmo-respawn__v1.md", "tags": ["sci-fi","respawn","time-dilation"] },
+    { "slug": "bp_respawn_character-spawn-logic", "title": "Respawn: Character Spawn Logic (Blueprints)", "domain": "bp", "level": "intermediate", "engine": "UE5", "path": "bp/bp__respawn-character-spawn-logic__v1.md", "tags": ["sci-fi","respawn","spawn"] },
+    { "slug": "bp_respawn_platform-interactivity", "title": "Respawn: Platform Interactivity (Blueprints)", "domain": "bp", "level": "intermediate", "engine": "UE5", "path": "bp/bp__respawn-platform-interactivity__v1.md", "tags": ["sci-fi","respawn","interact"] },
+    { "slug": "materials_texture_substance-designer", "title": "Texture Creation — Substance Designer", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__texture-substance-designer__v1.md", "tags": ["sci-fi","designer","export"] },
+    { "slug": "meshes_mesh_blender", "title": "Mesh Creation — Blender", "domain": "meshes", "level": "beginner", "engine": "UE5", "path": "meshes/meshes__mesh-blender__v1.md", "tags": ["mesh","blender","fbx"] },
+    { "slug": "shared_importing-assets-to-unreal", "title": "Importing Assets to Unreal", "domain": "shared", "level": "beginner", "engine": "UE5", "path": "shared/shared__importing-assets-to-unreal__v1.md", "tags": ["import","fbx","textures"] },
+    { "slug": "shared_concept-overview_respawn", "title": "Concept Overview (Respawn)", "domain": "shared", "level": "beginner", "engine": "UE5", "path": "shared/shared__concept-overview-respawn__v1.md", "tags": ["concept","respawn"] },
+    { "slug": "shared_concept-timelapse_respawn", "title": "Concept Timelapse (Respawn)", "domain": "shared", "level": "beginner", "engine": "UE5", "path": "shared/shared__concept-timelapse-respawn__v1.md", "tags": ["concept","timelapse"] },
+    { "slug": "materials_ammo_icons", "title": "Ammo Pickup: Icons (Materials)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__ammo-icons__v1.md", "tags": ["sci-fi","ammo","icons"] },
+    { "slug": "materials_ammo_energy-cone", "title": "Ammo Pickup: Energy Cone (Materials)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__ammo-energy-cone__v1.md", "tags": ["sci-fi","ammo","cone"] },
+    { "slug": "materials_ammo_material-instances-final", "title": "Ammo Pickup: Material Instances & Finalization", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__ammo-material-instances-final__v1.md", "tags": ["sci-fi","ammo","instances"] },
+    { "slug": "niagara_ammo_rotating-icons", "title": "Ammo Pickup: Rotating Icons (Niagara)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/niagara__ammo-rotating-icons__v1.md", "tags": ["sci-fi","ammo","icons"] },
+    { "slug": "niagara_ammo_deactivation-polygon", "title": "Ammo Pickup: Deactivation Polygon (Niagara)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/niagara__ammo-deactivation-polygon__v1.md", "tags": ["sci-fi","ammo","burst"] },
+    { "slug": "bp_ammo_pickup-material-setup", "title": "Ammo Pickup: Preparing Material (Blueprints)", "domain": "bp", "level": "intermediate", "engine": "UE5", "path": "bp/bp__ammo-pickup-material-setup__v1.md", "tags": ["sci-fi","ammo","mi"] },
+    { "slug": "bp_ammo_construction-script", "title": "Ammo Pickup: Construction Script (Blueprints)", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/bp__ammo-construction-script__v1.md", "tags": ["sci-fi","ammo","editor"] },
+    { "slug": "bp_ammo_gameplay-logic", "title": "Ammo Pickup: Gameplay Logic (Blueprints)", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/bp__ammo-gameplay-logic__v1.md", "tags": ["sci-fi","ammo","overlap"] },
+    { "slug": "bp_ammo_child-blueprint", "title": "Ammo Pickup: Child Blueprint (Blueprints)", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/bp__ammo-child-blueprint__v1.md", "tags": ["sci-fi","ammo","variants"] },
+    { "slug": "materials_texture_substance-designer-ammo", "title": "Texture Creation — Substance Designer (Ammo)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/materials__texture-substance-designer-ammo__v1.md", "tags": ["sci-fi","designer","ammo"] },
+    { "slug": "meshes_mesh_blender-ammo", "title": "Mesh Creation — Blender (Ammo)", "domain": "meshes", "level": "beginner", "engine": "UE5", "path": "meshes/meshes__mesh-blender-ammo__v1.md", "tags": ["mesh","ammo","blender"] },
+    { "slug": "shared_importing-assets-to-unreal-ammo", "title": "Importing Assets to Unreal (Ammo)", "domain": "shared", "level": "beginner", "engine": "UE5", "path": "shared/shared__importing-assets-to-unreal-ammo__v1.md", "tags": ["import","ammo","fbx"] }
   ],
   "patterns": [
     { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
@@ -72,3 +99,4 @@
     { "slug": "project_folders-vfx", "path": "patterns/project__folders-vfx__v1.md" }
   ]
 }
+```
