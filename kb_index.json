@@ -40,6 +40,8 @@
   "patterns": [
     { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
     { "slug": "niagara_forces-order", "path": "patterns/niagara__forces-order__v1.md" },
-    { "slug": "niagara_bp-user-float-control", "path": "patterns/niagara__bp-user-float-control__v1.md" }
+    { "slug": "niagara_bp-user-float-control", "path": "patterns/niagara__bp-user-float-control__v1.md" },
+    { "slug": "niagara_collision-to-spawn", "path": "patterns/niagara__collision-to-spawn__v1.md" },
+    { "slug": "niagara_toggle-system", "path": "patterns/niagara__toggle-system__v1.md" }
   ]
 }
