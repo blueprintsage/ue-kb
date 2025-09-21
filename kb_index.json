@@ -24,5 +24,18 @@
       "slug": "niagara_subuv-by-age",
       "path": "patterns/niagara__subuv-by-age__v1.md"
     }
+	{
+  "slug": "niagara_project_vfx-playground-setup",
+  "title": "VFX Playground Setup",
+  "domain": "niagara",
+  "level": "beginner",
+  "engine": "UE5",
+  "path": "niagara/project__vfx-playground-setup__v1.md",
+  "tags": ["setup","folders","subuv"]
+},
+{
+  "slug": "niagara_forces-order",
+  "path": "patterns/niagara__forces-order__v1.md"
+}
   ]
 }
