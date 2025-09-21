@@ -1,113 +1,21 @@
 {
   "cards": [
-    {
-      "slug": "niagara_flipbook_smoke-steam-setup",
-      "title": "Smoke/Steam Flipbook Setup",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/flipbook__smoke-steam-setup__v1.md",
-      "tags": ["flipbook", "depthfade", "sprite"]
-    },
-    {
-      "slug": "bp_variables_overview-carry-card",
-      "title": "Blueprint Variables — Carry Card",
-      "domain": "bp",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "bp/variables__overview-carry-card__v1.md",
-      "tags": ["bool", "float", "struct", "array", "map", "set"]
-    },
-    {
-      "slug": "niagara_project_vfx-playground-setup",
-      "title": "VFX Playground Setup",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/project__vfx-playground-setup__v1.md",
-      "tags": ["setup", "folders", "subuv"]
-    },
-    {
-      "slug": "niagara_flipbook_depthfade-subuv",
-      "title": "Flipbook + DepthFade (Clean Intersections)",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/flipbook__depthfade-subuv__v1.md",
-      "tags": ["flipbook", "depthfade", "sprite"]
-    },
-    {
-      "slug": "niagara_fundamentals_components-overview",
-      "title": "Niagara Components Overview",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/fundamentals__components-overview__v1.md",
-      "tags": ["system", "emitter", "renderer", "user-params"]
-    },
-    {
-      "slug": "niagara_sprite-emitter_first-emitter-setup",
-      "title": "First Sprite Emitter Setup",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/sprite-emitter__first-emitter-setup__v1.md",
-      "tags": ["sprite", "spawn-rate", "color-over-life"]
-    },
-    {
-      "slug": "niagara_emitter_spawn-update-stacks",
-      "title": "Emitter Stages: Spawn & Update",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/emitter__spawn-update-stacks__v1.md",
-      "tags": ["forces", "drag", "order"]
-    },
-    {
-      "slug": "niagara_sprite-motion_init-velocity-basics",
-      "title": "Sprite Motion: Init Velocity Basics",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/sprite-motion__init-velocity-basics__v1.md",
-      "tags": ["velocity", "gravity", "alpha"]
-    },
-    {
-      "slug": "niagara_portal_rim-outline",
-      "title": "Portal Rim Outline",
-      "domain": "niagara",
-      "level": "intermediate",
-      "engine": "UE5",
-      "path": "niagara/portal__rim-outline__v1.md",
-      "tags": ["shape-location", "depthfade", "portal"]
-    },
-    {
-      "slug": "niagara_particles_center-rotation",
-      "title": "Center Rotation Particles",
-      "domain": "niagara",
-      "level": "intermediate",
-      "engine": "UE5",
-      "path": "niagara/particles__center-rotation__v1.md",
-      "tags": ["curl-noise", "spin", "spiral"]
-    },
-    {
-      "slug": "niagara_location_shape-location-basics",
-      "title": "Shape Location Basics",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/location__shape-location-basics__v1.md",
-      "tags": ["spawn", "shapes", "surface-only"]
-    },
-    {
-      "slug": "niagara_gpu-sprite_basics",
-      "title": "GPU Sprite — Basics",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/gpu-sprite__basics__v1.md",
-      "tags": ["gpu", "sprites", "performance"]
-    }
+    { "slug": "niagara_flipbook_smoke-steam-setup", "title": "Smoke/Steam Flipbook Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__smoke-steam-setup__v1.md", "tags": ["flipbook","depthfade","sprite"] },
+    { "slug": "bp_variables_overview-carry-card", "title": "Blueprint Variables — Carry Card", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/variables__overview-carry-card__v1.md", "tags": ["bool","float","struct","array","map","set"] },
+    { "slug": "niagara_project_vfx-playground-setup", "title": "VFX Playground Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/project__vfx-playground-setup__v1.md", "tags": ["setup","folders","subuv"] },
+    { "slug": "niagara_flipbook_depthfade-subuv", "title": "Flipbook + DepthFade (Clean Intersections)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__depthfade-subuv__v1.md", "tags": ["flipbook","depthfade","sprite"] },
+    { "slug": "niagara_fundamentals_components-overview", "title": "Niagara Components Overview", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/fundamentals__components-overview__v1.md", "tags": ["system","emitter","renderer","user-params"] },
+    { "slug": "niagara_sprite-emitter_first-emitter-setup", "title": "First Sprite Emitter Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-emitter__first-emitter-setup__v1.md", "tags": ["sprite","spawn-rate","color-over-life"] },
+    { "slug": "niagara_emitter_spawn-update-stacks", "title": "Emitter Stages: Spawn & Update", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/emitter__spawn-update-stacks__v1.md", "tags": ["forces","drag","order"] },
+    { "slug": "niagara_sprite-motion_init-velocity-basics", "title": "Sprite Motion: Init Velocity Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-motion__init-velocity-basics__v1.md", "tags": ["velocity","gravity","alpha"] },
+    { "slug": "niagara_portal_rim-outline", "title": "Portal Rim Outline", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/portal__rim-outline__v1.md", "tags": ["shape-location","depthfade","portal"] },
+    { "slug": "niagara_particles_center-rotation", "title": "Center Rotation Particles", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/particles__center-rotation__v1.md", "tags": ["curl-noise","spin","spiral"] },
+    { "slug": "niagara_location_shape-location-basics", "title": "Shape Location Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/location__shape-location-basics__v1.md", "tags": ["spawn","shapes","surface-only"] },
+    { "slug": "niagara_gpu-sprite_basics", "title": "GPU Sprite — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/gpu-sprite__basics__v1.md", "tags": ["gpu","sprites","performance"] },
+    { "slug": "materials_sprite_first-vfx-material", "title": "First VFX Material (Sprite)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/sprite__first-vfx-material__v1.md", "tags": ["translucent","depthfade","particle-color"] },
+    { "slug": "niagara_flipbook_subuv-animation", "title": "Sub-UV Animation (Renderer Setup)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__subuv-animation__v1.md", "tags": ["flipbook","subuv","life-linear"] },
+    { "slug": "niagara_mesh-renderer_basics", "title": "Mesh Renderer — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/mesh-renderer__basics__v1.md", "tags": ["mesh","renderer","velocity-facing"] },
+    { "slug": "materials_distortion_heat-warp", "title": "Heat Distortion (Screen-Space Warp)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/distortion__heat-warp__v1.md", "tags": ["distortion","refraction","panner"] }
   ],
   "patterns": [
     { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
