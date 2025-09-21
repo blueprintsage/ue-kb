@@ -35,6 +35,60 @@
       "engine": "UE5",
       "path": "niagara/flipbook__depthfade-subuv__v1.md",
       "tags": ["flipbook", "depthfade", "sprite"]
+    },
+    {
+      "slug": "niagara_fundamentals_components-overview",
+      "title": "Niagara Components Overview",
+      "domain": "niagara",
+      "level": "beginner",
+      "engine": "UE5",
+      "path": "niagara/fundamentals__components-overview__v1.md",
+      "tags": ["system", "emitter", "renderer", "user-params"]
+    },
+    {
+      "slug": "niagara_sprite-emitter_first-emitter-setup",
+      "title": "First Sprite Emitter Setup",
+      "domain": "niagara",
+      "level": "beginner",
+      "engine": "UE5",
+      "path": "niagara/sprite-emitter__first-emitter-setup__v1.md",
+      "tags": ["sprite", "spawn-rate", "color-over-life"]
+    },
+    {
+      "slug": "niagara_emitter_spawn-update-stacks",
+      "title": "Emitter Stages: Spawn & Update",
+      "domain": "niagara",
+      "level": "beginner",
+      "engine": "UE5",
+      "path": "niagara/emitter__spawn-update-stacks__v1.md",
+      "tags": ["forces", "drag", "order"]
+    },
+    {
+      "slug": "niagara_sprite-motion_init-velocity-basics",
+      "title": "Sprite Motion: Init Velocity Basics",
+      "domain": "niagara",
+      "level": "beginner",
+      "engine": "UE5",
+      "path": "niagara/sprite-motion__init-velocity-basics__v1.md",
+      "tags": ["velocity", "gravity", "alpha"]
+    },
+    {
+      "slug": "niagara_portal_rim-outline",
+      "title": "Portal Rim Outline",
+      "domain": "niagara",
+      "level": "intermediate",
+      "engine": "UE5",
+      "path": "niagara/portal__rim-outline__v1.md",
+      "tags": ["shape-location", "depthfade", "portal"]
+    },
+    {
+      "slug": "niagara_particles_center-rotation",
+      "title": "Center Rotation Particles",
+      "domain": "niagara",
+      "level": "intermediate",
+      "engine": "UE5",
+      "path": "niagara/particles__center-rotation__v1.md",
+      "tags": ["curl-noise", "spin", "spiral"]
     }
   ],
   "patterns": [
@@ -42,6 +96,8 @@
     { "slug": "niagara_forces-order", "path": "patterns/niagara__forces-order__v1.md" },
     { "slug": "niagara_bp-user-float-control", "path": "patterns/niagara__bp-user-float-control__v1.md" },
     { "slug": "niagara_collision-to-spawn", "path": "patterns/niagara__collision-to-spawn__v1.md" },
-    { "slug": "niagara_toggle-system", "path": "patterns/niagara__toggle-system__v1.md" }
+    { "slug": "niagara_toggle-system", "path": "patterns/niagara__toggle-system__v1.md" },
+    { "slug": "niagara_ribbon-basics", "path": "patterns/niagara__ribbon-basics__v1.md" },
+    { "slug": "project_folders-vfx", "path": "patterns/project__folders-vfx__v1.md" }
   ]
 }
