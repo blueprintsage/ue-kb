@@ -24,7 +24,11 @@
     { "slug": "materials_rt_draw-material", "title": "Render Target — Draw Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/rt__draw-material__v1.md", "tags": ["render-target","draw","bp"] },
     { "slug": "materials_rt_bake-texture", "title": "Render Target — Bake to Texture", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/rt__bake-texture__v1.md", "tags": ["render-target","bake","texture"] },
     { "slug": "materials_noise_voronoi-variations", "title": "Voronoi Noise — Variations", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/noise__voronoi-variations__v1.md", "tags": ["noise","voronoi","masks"] },
-    { "slug": "niagara_ribbon-renderer_setup", "title": "Ribbon Renderer — Setup", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/ribbon-renderer__setup__v1.md", "tags": ["ribbon","trails","uv"] }
+    { "slug": "niagara_ribbon-renderer_setup", "title": "Ribbon Renderer — Setup", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/ribbon-renderer__setup__v1.md", "tags": ["ribbon","trails","uv"] },
+    { "slug": "niagara_portal_outline-polish", "title": "Portal — Outline Polish", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/portal__outline-polish__v1.md", "tags": ["portal","rim","spark-layer"] },
+    { "slug": "niagara_hit-impact_spark-debris", "title": "Hit Impact — Sparks & Debris", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/hit-impact__spark-debris__v1.md", "tags": ["impact","sparks","debris","ribbon","mesh"] },
+    { "slug": "niagara_meteor_trail-impact", "title": "Meteor — Trail + Impact", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/meteor__trail-impact__v1.md", "tags": ["trail","ribbon","impact","events"] },
+    { "slug": "bp_niagara-bridge_gameplay-hooks", "title": "BP ↔ Niagara — Gameplay Hooks", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/niagara-bridge__gameplay-hooks__v1.md", "tags": ["user-params","timelines","events"] }
   ],
   "patterns": [
     { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
