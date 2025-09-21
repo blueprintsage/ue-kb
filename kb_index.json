@@ -1,24 +1,6 @@
 {
   "cards": [
     {
-      "slug": "niagara_fundamentals_components-overview",
-      "title": "Niagara Components Overview",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/fundamentals__components-overview__v1.md",
-      "tags": ["system","emitter","renderer","user-params"]
-    },
-    {
-      "slug": "niagara_project_vfx-playground-setup",
-      "title": "VFX Playground Setup",
-      "domain": "niagara",
-      "level": "beginner",
-      "engine": "UE5",
-      "path": "niagara/project__vfx-playground-setup__v1.md",
-      "tags": ["setup","folders","subuv"]
-    },
-    {
       "slug": "niagara_flipbook_smoke-steam-setup",
       "title": "Smoke/Steam Flipbook Setup",
       "domain": "niagara",
@@ -38,8 +20,9 @@
     }
   ],
   "patterns": [
-    { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
-    { "slug": "niagara_forces-order", "path": "patterns/niagara__forces-order__v1.md" },
-    { "slug": "niagara_bp-user-float-control", "path": "patterns/niagara__bp-user-float-control__v1.md" }
+    {
+      "slug": "niagara_subuv-by-age",
+      "path": "patterns/niagara__subuv-by-age__v1.md"
+    }
   ]
 }
