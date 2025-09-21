@@ -89,6 +89,24 @@
       "engine": "UE5",
       "path": "niagara/particles__center-rotation__v1.md",
       "tags": ["curl-noise", "spin", "spiral"]
+    },
+    {
+      "slug": "niagara_location_shape-location-basics",
+      "title": "Shape Location Basics",
+      "domain": "niagara",
+      "level": "beginner",
+      "engine": "UE5",
+      "path": "niagara/location__shape-location-basics__v1.md",
+      "tags": ["spawn", "shapes", "surface-only"]
+    },
+    {
+      "slug": "niagara_gpu-sprite_basics",
+      "title": "GPU Sprite — Basics",
+      "domain": "niagara",
+      "level": "beginner",
+      "engine": "UE5",
+      "path": "niagara/gpu-sprite__basics__v1.md",
+      "tags": ["gpu", "sprites", "performance"]
     }
   ],
   "patterns": [
