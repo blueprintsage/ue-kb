@@ -1,0 +1,38 @@
+{
+  "cards": [
+    { "slug": "niagara_flipbook_smoke-steam-setup", "title": "Smoke/Steam Flipbook Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__smoke-steam-setup__v1.md", "tags": ["flipbook","depthfade","sprite"] },
+    { "slug": "bp_variables_overview-carry-card", "title": "Blueprint Variables — Carry Card", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/variables__overview-carry-card__v1.md", "tags": ["bool","float","struct","array","map","set"] },
+    { "slug": "niagara_project_vfx-playground-setup", "title": "VFX Playground Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/project__vfx-playground-setup__v1.md", "tags": ["setup","folders","subuv"] },
+    { "slug": "niagara_flipbook_depthfade-subuv", "title": "Flipbook + DepthFade (Clean Intersections)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__depthfade-subuv__v1.md", "tags": ["flipbook","depthfade","sprite"] },
+    { "slug": "niagara_fundamentals_components-overview", "title": "Niagara Components Overview", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/fundamentals__components-overview__v1.md", "tags": ["system","emitter","renderer","user-params"] },
+    { "slug": "niagara_sprite-emitter_first-emitter-setup", "title": "First Sprite Emitter Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-emitter__first-emitter-setup__v1.md", "tags": ["sprite","spawn-rate","color-over-life"] },
+    { "slug": "niagara_emitter_spawn-update-stacks", "title": "Emitter Stages: Spawn & Update", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/emitter__spawn-update-stacks__v1.md", "tags": ["forces","drag","order"] },
+    { "slug": "niagara_sprite-motion_init-velocity-basics", "title": "Sprite Motion: Init Velocity Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-motion__init-velocity-basics__v1.md", "tags": ["velocity","gravity","alpha"] },
+    { "slug": "niagara_portal_rim-outline", "title": "Portal Rim Outline", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/portal__rim-outline__v1.md", "tags": ["shape-location","depthfade","portal"] },
+    { "slug": "niagara_particles_center-rotation", "title": "Center Rotation Particles", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/particles__center-rotation__v1.md", "tags": ["curl-noise","spin","spiral"] },
+    { "slug": "niagara_location_shape-location-basics", "title": "Shape Location Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/location__shape-location-basics__v1.md", "tags": ["spawn","shapes","surface-only"] },
+    { "slug": "niagara_gpu-sprite_basics", "title": "GPU Sprite — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/gpu-sprite__basics__v1.md", "tags": ["gpu","sprites","performance"] },
+    { "slug": "materials_sprite_first-vfx-material", "title": "First VFX Material (Sprite)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/sprite__first-vfx-material__v1.md", "tags": ["translucent","depthfade","particle-color"] },
+    { "slug": "niagara_flipbook_subuv-animation", "title": "Sub-UV Animation (Renderer Setup)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__subuv-animation__v1.md", "tags": ["flipbook","subuv","life-linear"] },
+    { "slug": "niagara_mesh-renderer_basics", "title": "Mesh Renderer — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/mesh-renderer__basics__v1.md", "tags": ["mesh","renderer","velocity-facing"] },
+    { "slug": "materials_distortion_heat-warp", "title": "Heat Distortion (Screen-Space Warp)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/distortion__heat-warp__v1.md", "tags": ["distortion","refraction","panner"] },
+    { "slug": "materials_uv_pan-distort", "title": "UV Manipulation — Pan/Distort", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/uv__pan-distort__v1.md", "tags": ["uv","panner","distortion"] },
+    { "slug": "materials_noise_perlin-function", "title": "Perlin Noise (Material Function)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/noise__perlin-function__v1.md", "tags": ["noise","perlin","function"] },
+    { "slug": "niagara_flamethrower_main-flame", "title": "Flamethrower — Main Flame", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/flamethrower__main-flame__v1.md", "tags": ["cone","subuv","velocity-stretch"] },
+    { "slug": "niagara_flamethrower_smoke", "title": "Flamethrower — Smoke", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/flamethrower__smoke__v1.md", "tags": ["smoke","drag","depthfade"] },
+    { "slug": "meshes_custom-mesh_import-setup", "title": "Custom Mesh — Import & Setup (for Niagara)", "domain": "meshes", "level": "beginner", "engine": "UE5", "path": "meshes/custom-mesh__import-setup__v1.md", "tags": ["fbx","lod","mesh-renderer"] },
+    { "slug": "materials_rt_draw-material", "title": "Render Target — Draw Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/rt__draw-material__v1.md", "tags": ["render-target","draw","bp"] },
+    { "slug": "materials_rt_bake-texture", "title": "Render Target — Bake to Texture", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/rt__bake-texture__v1.md", "tags": ["render-target","bake","texture"] },
+    { "slug": "materials_noise_voronoi-variations", "title": "Voronoi Noise — Variations", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/noise__voronoi-variations__v1.md", "tags": ["noise","voronoi","masks"] },
+    { "slug": "niagara_ribbon-renderer_setup", "title": "Ribbon Renderer — Setup", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/ribbon-renderer__setup__v1.md", "tags": ["ribbon","trails","uv"] }
+  ],
+  "patterns": [
+    { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
+    { "slug": "niagara_forces-order", "path": "patterns/niagara__forces-order__v1.md" },
+    { "slug": "niagara_bp-user-float-control", "path": "patterns/niagara__bp-user-float-control__v1.md" },
+    { "slug": "niagara_collision-to-spawn", "path": "patterns/niagara__collision-to-spawn__v1.md" },
+    { "slug": "niagara_toggle-system", "path": "patterns/niagara__toggle-system__v1.md" },
+    { "slug": "niagara_ribbon-basics", "path": "patterns/niagara__ribbon-basics__v1.md" },
+    { "slug": "project_folders-vfx", "path": "patterns/project__folders-vfx__v1.md" }
+  ]
+}
