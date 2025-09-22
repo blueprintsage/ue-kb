@@ -1,10 +1,30 @@
-# Parallax & Height-Blend (Ground/Decals)
-**Domain:** materials • **Level:** intermediate • **Engine:** UE5
-## Goal
-Depthy surfaces and clean transitions between two materials.
-## Recipe
-- Use **Parallax Occlusion Mapping** sparingly (few steps; clamp), or cheaper **Bump Offset** for distant shots.
-- **Height-Blend:** `HeightLerp(A,B, Aheight, Bheight, Contrast)` for rock-into-sand, with optional world-aligned normals for continuity.
-- Add **Macro variation** at large tiling; keep emissive low to avoid blown highlights.
-## Checks
-- Angle change shows convincing depth; blend line disappears under varied height.
+---
+id: materials__parallax__height-blend__v1
+family: materials
+topic: parallax__height-blend
+version: 1
+ue: ["5.3","5.4","5.5"]
+status: stable
+license: GPL-3.0-or-later
+art_license: CC-BY
+tags: ["parallax","heightlerp","series:sci-fi-vfx","part:3","source:book:butler"]
+assets: []
+deps: []
+last_updated: 2025-09-21
+---
+
+
+# Parallax & Height‑Blend (Ground/Decals)
+
+
+## Summary
+Stable height‑based blending for ground decals and materials.
+
+
+## Steps
+- Remap height maps to 0..1 before lerp; expose `HeightContrast` for art.
+- Cap parallax steps; beyond 20m switch to cheaper height blend.
+
+
+## QA
+Grazing angles; decals on uneven terrain.

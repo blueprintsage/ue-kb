@@ -1,16 +1,36 @@
+---
+id: niagara__performance__significance-lod__v1
+family: niagara
+topic: performance__significance-lod
+version: 1
+ue: ["5.3","5.4","5.5"]
+status: stable
+license: GPL-3.0-or-later
+art_license: CC-BY
+tags: ["lod","significance","bounds","series:sci-fi-vfx","part:3","source:book:butler"]
+assets: []
+deps: []
+last_updated: 2025-09-21
+---
+
+
 # Performance — Significance & LOD
-**Domain:** niagara • **Level:** advanced • **Engine:** UE5
 
-## Goal
-Keep FX cheap at distance or when off-screen.
 
-## Recipe
-- In **System Settings**: enable **Determinism** only if required. Configure **Fixed Bounds** to avoid culling pops.
-- **Scalability**: set **Significance Handler** (Distance or Custom). Add **Emitter/Renderer LODs**: lower spawn, simpler materials, disable ribbons/mesh at far LODs.
-- **Cull**: reduce update rate or pause when not rendered; use **Warmup** to avoid first-frame pops.
+## Summary
+Consistent emitter enable/disable and cost scaling by distance/importance.
 
-## Checks
-- Far FX show fewer/cheaper particles; near FX stay full fidelity.
 
-## Pitfalls
-- Missing bounds → early cull; overusing determinism or heavy materials on GPU FX.
+## Buckets
+- **Critical:** always on.
+- **Near:** ≤ 25m.
+- **Mid:** ≤ 50m.
+- **Far:** 100m+ (no refraction, reduced collision).
+
+
+## Budget Table
+Per tier particle caps; document which emitters switch off by bucket.
+
+
+## QA
+Profile with crowds (10× instances) to catch emergent spikes.

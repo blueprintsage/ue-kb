@@ -1,9 +1,34 @@
+---
+id: materials__decals__impact-polish__v1
+family: materials
+topic: decals__impact-polish
+version: 1
+ue: ["5.3","5.4","5.5"]
+status: stable
+license: GPL-3.0-or-later
+art_license: CC-BY
+tags: ["decal","impact","polish","series:sci-fi-vfx","part:3","source:book:butler"]
+assets: []
+deps: []
+last_updated: 2025-09-21
+---
+
+
 # Impact Decals — Polish
-**Domain:** materials • **Level:** intermediate • **Engine:** UE5
-## Material
-- Deferred Decal; **Translucent**, **DBuffer Translucent Color / Normal / Roughness** as needed.
-- Inputs: Albedo, Normal, Roughness, GrungeMask, EdgeSoftness.
-- Fade: `Opacity = smoothstep(Edge, Edge+Softness, GrungeMask) * LifetimeFade`.
-## Usage
-- Spawn at hit with rot-from-normal; randomize scale/rotation; lifespan 10–90s.
-- Avoid stacking: small size, clamp emissive, keep normal strength modest.
+
+
+## Summary
+Cleaner projections and consistent lifespans for hits, scorch, and stains.
+
+
+## Settings
+- Small negative depth bias to prevent z‑fight (clamped to avoid light leaks).
+- Use Translucent for emissive flashes; DBuffer Translucent Color for persistent stains.
+
+
+## Lifespan Bins
+- Sparks **0.5s**, Scorch **3s**, Stain **30s** — use separate MIs.
+
+
+## QA
+Test on high‑metallic and extremes of roughness.

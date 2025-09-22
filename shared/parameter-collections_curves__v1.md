@@ -1,15 +1,33 @@
+---
+id: shared__parameter-collections_curves__v1
+family: shared
+topic: parameter-collections_curves
+version: 1
+ue: ["5.3","5.4","5.5"]
+status: stable
+license: GPL-3.0-or-later
+art_license: CC-BY
+tags: ["mpc","curves","tuning","series:sci-fi-vfx","part:3"]
+assets: []
+deps: []
+last_updated: 2025-09-21
+---
+
+
 # Parameter Collections & Curves (Global Control)
-**Domain:** shared • **Level:** intermediate • **Engine:** UE5
 
-## Goal
-Drive many materials/FX at once and shape values smoothly.
 
-## Recipe
-- **Material Parameter Collection (MPC):** Create MPC with `Scalar GlobalIntensity`, `Vector Tint`. In materials, use **CollectionParameter** nodes. In BP: `Set Scalar Parameter Value (MPC)` to broadcast changes.
-- **Niagara User Curves:** Add `Float Curve` in emitter/system (e.g., Size over Age). For shared shapes, use **Curve assets**; expose a **User Float** to scale curves at runtime.
+## Summary
+Global timing/color control for coordinated effects.
 
-## Checks
-- One BP change affects multiple FX; curve edits immediately reshape timing.
 
-## Pitfalls
-- Name mismatches; MPC not referenced in a material; curve time not matching lifetime.
+## MPC Keys
+`VFX_TeamColor`, `VFX_GlobalGlow`, `VFX_TimeScale`.
+
+
+## Curves
+Centralize spawn/fade/rim curves to update multiple effects in one place.
+
+
+## BP Bridge
+On router spawn, push MPC values; local user params override MPC when set.
