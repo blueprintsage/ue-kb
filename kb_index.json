@@ -79,7 +79,14 @@
     { "slug": "materials_chameleon_angle-fresnel", "title": "Chameleon Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/chameleon__angle-fresnel__v1.md", "tags": ["fresnel","stylized"] },
     { "slug": "materials_hologram_dynamic-scanlines", "title": "Dynamic Hologram", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/hologram__dynamic-scanlines__v1.md", "tags": ["hologram","scanlines"] },
     { "slug": "materials_liquids_toxic-river", "title": "Toxic River (Material)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/liquids__toxic-river__v1.md", "tags": ["liquids","river"] },
-    { "slug": "niagara_liquids_bubbles-debris", "title": "Toxic River — Bubbles & Debris", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/liquids__bubbles-debris__v1.md", "tags": ["liquids","bubbles","debris"] }
+    { "slug": "niagara_liquids_bubbles-debris", "title": "Toxic River — Bubbles & Debris", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/liquids__bubbles-debris__v1.md", "tags": ["liquids","bubbles","debris"] },
+
+    { "slug": "niagara_fluids_fundamentals", "title": "Fluids Fundamentals (Particles → Template)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/fluids__fundamentals__v1.md", "tags": ["fluids","template","fundamentals"] },
+    { "slug": "niagara_fluids_overview", "title": "Niagara Fluids Overview", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/fluids__overview__v1.md", "tags": ["fluids","emitters","solvers"] },
+    { "slug": "niagara_fluids_volumes-lighting", "title": "Fluids — Volumes & Lighting", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/fluids__volumes-lighting__v1.md", "tags": ["fog","lighting","channels"] },
+    { "slug": "niagara_fluids_full-flow-fire", "title": "Fluids — Full-Flow & Fire Recipes", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/fluids__full-flow-fire__v1.md", "tags": ["fire","full-flow","recipes"] },
+    { "slug": "niagara_fluids_workflow-control", "title": "Fluids — Workflow, Control & Caching", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/fluids__workflow-control__v1.md", "tags": ["sequencer","cache","render"] },
+    { "slug": "niagara_meteor_fluid", "title": "Meteor (Fluid Plume)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/meteor__fluid-meteor__v1.md", "tags": ["meteor","plume","debris"] }
   ],
   "patterns": [
     { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
