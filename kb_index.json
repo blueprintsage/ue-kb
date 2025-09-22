@@ -45,6 +45,7 @@
     { "slug": "niagara_forcefield_shockwave-spherical", "title": "Forcefield — Spherical Shockwave", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/forcefield__shockwave-spherical__v1.md", "tags": ["shockwave","sphere","refraction"] },
     { "slug": "niagara_teleport_disintegrate-reintegrate", "title": "Teleport — Disintegrate/Reintegrate", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/teleport__disintegrate-reintegrate__v1.md", "tags": ["teleport","mesh-particles","dither"] },
     { "slug": "bp_vfx-lib_effect-spawn-router", "title": "BP VFX Library — Effect Spawn Router", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/vfx-lib__effect-spawn-router__v1.md", "tags": ["datatable","router","spawn"] },
+
     { "slug": "materials_viewport_cost-debugging", "title": "Viewport Cost Debugging", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/viewport__cost-debugging__v1.md", "tags": ["perf","viewmodes","stats","source:book:butler"] },
     { "slug": "materials_vertex-paint_master-flow", "title": "Vertex Paint — Master Flow", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/vertex-paint__master-flow__v1.md", "tags": ["vertex-paint","heightlerp","source:book:butler"] },
     { "slug": "materials_dissolve_dither-fade", "title": "Dissolve / Dither Fade", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/dissolve__dither-fade__v1.md", "tags": ["dissolve","dither","fade","source:book:butler"] },
@@ -64,7 +65,16 @@
     { "slug": "niagara_beam_laser-vfx", "title": "Laser Beam VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/beam__laser-vfx__v1.md", "tags": ["beam","laser","blueprints","niagara","remix:original"] },
     { "slug": "niagara_plasma_blaster-vfx", "title": "Plasma Blaster VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/plasma__blaster-vfx__v1.md", "tags": ["plasma","projectile","trail","niagara","remix:original"] },
     { "slug": "niagara_shield_energy-vfx", "title": "Energy Shield VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/shield__energy-vfx__v1.md", "tags": ["shield","fresnel","refraction","niagara","remix:original"] },
-    { "slug": "niagara_grenade_pulse-vfx", "title": "Pulse Grenade VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/grenade__pulse-vfx__v1.md", "tags": ["grenade","shock-ring","debris","niagara","remix:original"] }
+    { "slug": "niagara_grenade_pulse-vfx", "title": "Pulse Grenade VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/grenade__pulse-vfx__v1.md", "tags": ["grenade","shock-ring","debris","niagara","remix:original"] },
+
+    { "slug": "niagara_projectile_core-materials", "title": "Projectile — Core Materials", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__core-materials__v1.md", "tags": ["projectile","materials","emissive","niagara"] },
+    { "slug": "niagara_projectile_trail-ribbon", "title": "Projectile — Trail (Ribbon)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__trail-ribbon__v1.md", "tags": ["projectile","trail","ribbon","uv"] },
+    { "slug": "niagara_projectile_impact-decal-smoke", "title": "Projectile — Impact Decal + Smoke", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__impact-decal-smoke__v1.md", "tags": ["impact","decal","smoke","events"] },
+    { "slug": "niagara_projectile_lights-camera-feedback", "title": "Projectile — Lights & Camera Feedback", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__lights-camera-feedback__v1.md", "tags": ["lights","camera-shake","feedback"] },
+    { "slug": "bp_vfx-lib_spawn-router", "title": "VFX Library — Spawn Router", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/vfx-lib__spawn-router__v1.md", "tags": ["bp","router","datatable","spawner"] },
+    { "slug": "bp_projectile_gameplay-hooks", "title": "Projectile — Gameplay Hooks", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/projectile__gameplay-hooks__v1.md", "tags": ["bp","notify","events","cleanup"] },
+    { "slug": "niagara_projectile_cleanup-lifetime", "title": "Projectile — Cleanup & Lifetime", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__cleanup-lifetime__v1.md", "tags": ["cleanup","lifetime","pooling"] },
+    { "slug": "shared_qa_projectile-fx-checks", "title": "QA — Projectile FX Checks", "domain": "shared", "level": "all", "engine": "UE5", "path": "shared/qa__projectile-fx-checks__v1.md", "tags": ["qa","perf","determinism"] }
   ],
   "patterns": [
     { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
@@ -80,6 +90,11 @@
     { "slug": "niagara_impact-ripple", "path": "patterns/niagara__impact-ripple__v1.md" },
     { "slug": "materials_shock-ring-mf", "path": "patterns/materials__shock-ring-mf__v1.md" },
     { "slug": "bp_montage-fx-events", "path": "patterns/bp__montage-fx-events__v1.md" },
-    { "slug": "niagara_projectile-fx-template", "path": "patterns/niagara__projectile-fx-template__v1.md" }
+    { "slug": "niagara_projectile-fx-template", "path": "patterns/niagara__projectile-fx-template__v1.md" },
+
+    { "slug": "niagara_trail-lifetime-tuning", "path": "patterns/niagara__trail-lifetime-tuning__v1.md" },
+    { "slug": "niagara_decal-pooling", "path": "patterns/niagara__decal-pooling__v1.md" },
+    { "slug": "shared_event-timing-determinism", "path": "patterns/shared__event-timing-determinism__v1.md" },
+    { "slug": "shared_projectile-pc-global", "path": "patterns/shared__projectile-pc-global__v1.md" }
   ]
 }
