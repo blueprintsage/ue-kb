@@ -17,7 +17,7 @@ last_updated: 2025-09-21
 - **Timing:** anticipation → impact → settle present and distinct.
 - **Shape/Contrast:** bold silhouette; grayscale pass reads; emissive clamps respected.
 - **Color:** hue separation from background; presets consistent across biomes.
-
+Perf: passes significance/LOD gates; no overdraw spikes; bounds stable.
 
 # FX QA Checklist — Ship Safe
 

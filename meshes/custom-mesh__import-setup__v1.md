@@ -24,6 +24,12 @@
 Icicle: tip ≥2–3 cm; UV lengthwise; Import Normals & Tangents; Nanite OFF for translucent.  
 Shield: quad/ico-sphere, even density; pivot center; Nanite OFF for translucent (5.1–5.3).  
 AOE Cylinder: unit height/radius for predictable Scale; two UV sets (cap/rim); LOD1 for distant shots.
-
-
-
+Projectile (Capsule/Orb): unit height; UV0 along length, UV1 radial cracks; pivot at muzzle centerline; Nanite OFF for translucent.
+## Add-on Pack — Characters Setup (Stylized)
+Import skeletal meshes with uniform texel density (~512–1024 px/m for close shots).
+Pivot sanity (feet @ 0,0,0; forward +X). Create `MI_Char_Outline` (post-process or shell) gated by quality.
+Attach sockets: `Muzzle_R`, `Hand_R`, `Spine2_Center` for FX tests; store in a `SK_Stylized_Test` rig.
+## Add-on Pack — Houdini Mesh Prep → UE5
+Low→mid poly primitives for FX (capsule/orb/shards); UVs: UDIM not required; keep seams hidden along long axis.
+Export: scale 1.0, Z-up→Y-up fix as needed; name with unit suffix (`_u1m`, `_u50cm`).
+Normals/Tangents: export from DCC; in UE set Import Normals & Tangents for consistency with stylized shading.

@@ -25,7 +25,10 @@ Projectile actor; on impact send `FX.Fire.Puddle.Start`; schedule Stop; clean de
 Attach beam comp to socket; tick trace to set Target; on block → `FX.Electric.Hit`; reset on deactivate.
 ### AOE Beats (Anticipation → Climax → Settle)
 Expose User Params: Scale, Color, Intensity; Timeline: Anticipation curve → Climax spike → Settle tail; single source of truth for all emitters.
-
+## Add-on Pack — Projectile Gameplay Hooks
+Events: `FX.Projectile.Muzzle`, `FX.Projectile.Trail`, `FX.Projectile.Impact`.
+Router reads DT row, applies `FX_Scale/Tint/Intensity`, then `Activate` on the Niagara component.
+Add cooldowns for rapid-fire weapons; pool impact actors; clean decals on destroy.
 
 ## Checks
 - Toggling inputs clearly scales FX; impacts spawn exactly at hit location/normal.

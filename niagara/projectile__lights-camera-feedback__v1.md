@@ -27,7 +27,13 @@ Emit gameplay events → BP adds light pulse + minimal shake → clamp & cooldow
 Additive sprite fan; lifetime 1–2 frames; point light pulse with inverse-distance falloff; cooldown guard; disable on photo-sensitive preset.
 ### Glowing Particles (Ice/Fire)
 Emissive pulse curve (0→1→0 ≤0.12 s); clamp intensity by distance; random seed per shot.
-
+## Add-on Pack — Muzzle & Impact Lights
+### Muzzle
+1–2 frame point-light pulse; radius by weapon tier; cooldown to avoid strobing.
+### Impact
+Brief light flash (≤0.08 s) for hot impacts only; skip for electric on Low.
+### Camera
+Optional exposure clamp track for clarity shots in Sequencer.
 
 ## QA Checklist
 Comfort-safe; no strobe; works at 60/120 fps.

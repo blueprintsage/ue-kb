@@ -8,6 +8,10 @@
 - Color Over Life: start opaque → fade near end.
 ## Add-on Pack — First Texture & Additive
 Import small sprite; additive material; spawn rate vs burst; size/color/alpha curves; gravity & collisions basics; loop tricks (seed, phase).
-
+## Add-on Pack — First Texture & Additive
+Import small sprite; set additive material; choose spawn **rate vs burst** based on read.
+Shape over Life: size ↑, color bias curve, alpha ease-out.
+Motion: basic gravity and simple collisions (kill on 2nd bounce).
+Loop tricks: random seed/phase so repeats don’t sync; clamp lifetime for clarity.
 ## Checks
 - Sprites appear, rise slightly, fade; Spawn Rate clearly changes density.

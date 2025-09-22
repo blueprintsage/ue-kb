@@ -23,7 +23,19 @@ Collision event → spawn DecalSys + SmokeSys → timed cleanup via user params.
 Quick scorch decal (size from bottle radius) + warm smoke ring burst; brief point-light pulse ≤0.12 s.
 ### Water Splash
 Tiny wet decal ring; upward splash puff ≤0.25 s; no light; pool aggressively.
-
+## Add-on Pack — Molotov / Splash Impacts
+### Fire Splash (Molotov)
+Quick scorch decal (size from bottle radius) + warm smoke ring burst; brief point-light pulse ≤0.12 s.
+### Water Splash
+Tiny wet decal ring; upward splash puff ≤0.25 s; no light; pool aggressively.
+### Impact Presets (Electric/Magic)
+Electric: micro scorch + bright spark burst (≤0.12 s) → tiny smoke 0.05 s later.
+Magic: soft shock-ring + faint scorch; lights OFF by default.
+## Add-on Pack — Projectile System Build (Niagara)
+System: `NS_Proj_Stylized`; Emitters: `Muzzle_Flash`, `Trail_Ribbon`, `Impact_Burst`, `Impact_Smoke`.
+Order of ops (1 frame offsets): Muzzle → Trail start → Impact decal → Burst → Smoke.
+Curves: lifetime and spawn tied to `FX_Scale`; determinism ON for router-driven gameplay.
+QA hooks: bounds presets per scale; significance gating removes smoke at Far.
 ## QA Checklist
 No z-fighting; decal lifespan < 1.2s; smoke opacity never hard-cuts.
 ## Release Notes

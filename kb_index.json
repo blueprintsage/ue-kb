@@ -64,7 +64,22 @@
     { "slug": "niagara_projectile_cleanup-lifetime", "title": "Projectile — Cleanup & Lifetime", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__cleanup-lifetime__v1.md", "tags": ["cleanup","lifetime","pooling","niagara","remix:original"] },
     { "slug": "bp_vfx-lib_spawn-router", "title": "VFX Library — Spawn Router", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/vfx-lib__spawn-router__v1.md", "tags": ["bp","router","datatable","spawner","remix:original"] },
     { "slug": "bp_projectile_gameplay-hooks", "title": "Projectile — Gameplay Hooks", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/projectile__gameplay-hooks__v1.md", "tags": ["bp","notify","events","cleanup","remix:original"] },
-    { "slug": "shared_qa_projectile-fx-checks", "title": "QA — Projectile FX Checks", "domain": "shared", "level": "all", "engine": "UE5", "path": "shared/qa__projectile-fx-checks__v1.md", "tags": ["qa","perf","determinism","remix:original"] }
+    { "slug": "shared_qa_projectile-fx-checks", "title": "QA — Projectile FX Checks", "domain": "shared", "level": "all", "engine": "UE5", "path": "shared/qa__projectile-fx-checks__v1.md", "tags": ["qa","perf","determinism","remix:original"] },
+
+    { "slug": "materials_fundamentals_base-material", "title": "Simple Base Material", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__base-material__v1.md", "tags": ["fundamentals","base"] },
+    { "slug": "materials_fundamentals_two-way-blend", "title": "2-Way Material Blend", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__two-way-blend__v1.md", "tags": ["blend","heightlerp"] },
+    { "slug": "materials_fundamentals_testing-tweaks", "title": "Testing & Tweaks", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__testing-tweaks__v1.md", "tags": ["testing","workflow"] },
+    { "slug": "materials_ambient-occlusion_distance-field", "title": "Distance Field AO Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/ambient-occlusion__distance-field__v1.md", "tags": ["dfao","ambient-occlusion"] },
+    { "slug": "materials_stack-layer_setup", "title": "Stack Layer Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/stack-layer__setup__v1.md", "tags": ["layered","attributes"] },
+    { "slug": "materials_liquids_glass-condensation", "title": "Glass Condensation", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/liquids__glass-condensation__v1.md", "tags": ["liquids","glass","condensation"] },
+    { "slug": "materials_parallax_occlusion-mapping", "title": "Parallax Occlusion Mapping", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/parallax__occlusion-mapping__v1.md", "tags": ["pom","parallax"] },
+    { "slug": "materials_terrain_auto-material", "title": "Auto Terrain Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/terrain__auto-material__v1.md", "tags": ["terrain","auto-material"] },
+    { "slug": "materials_vfx_core-library", "title": "VFX Materials — Core Library", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/vfx__core-library__v1.md", "tags": ["vfx","flipbooks"] },
+    { "slug": "niagara_velocity_burnup-trails", "title": "High-Velocity Burnup", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/velocity__burnup-trails__v1.md", "tags": ["velocity","trails","ribbons"] },
+    { "slug": "materials_chameleon_angle-fresnel", "title": "Chameleon Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/chameleon__angle-fresnel__v1.md", "tags": ["fresnel","stylized"] },
+    { "slug": "materials_hologram_dynamic-scanlines", "title": "Dynamic Hologram", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/hologram__dynamic-scanlines__v1.md", "tags": ["hologram","scanlines"] },
+    { "slug": "materials_liquids_toxic-river", "title": "Toxic River (Material)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/liquids__toxic-river__v1.md", "tags": ["liquids","river"] },
+    { "slug": "niagara_liquids_bubbles-debris", "title": "Toxic River — Bubbles & Debris", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/liquids__bubbles-debris__v1.md", "tags": ["liquids","bubbles","debris"] }
   ],
   "patterns": [
     { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },

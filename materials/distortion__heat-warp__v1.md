@@ -7,7 +7,6 @@
 ## Add-on Pack — Heat Haze, AOE Dissolve/Distort
 Heat Haze: Perlin mask panner 0.03–0.06; Refraction 0.005–0.012 (gate by quality).  
 AOE Dissolve: Ordered Dither or Temporal Dither; edge glow via fresnel mask; optional refraction 0.01–0.02 (Mid+).
-
 ## Checks
 - Background warps behind particles; strength adjustable without artifacts.
 ## Pitfalls

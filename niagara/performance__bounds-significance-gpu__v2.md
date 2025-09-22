@@ -33,7 +33,17 @@ Beams: bounds span src↔tgt +20%; reduce fork rate at Far LOD; clamp emissive.
 Weather: wind via MPC; Snow on CPU for collisions, GPU for storms; Far LOD disables secondaries.  
 Liquids: strict pooling; kill after 2nd bounce; decals short-lived.  
 AOE: budget by tier; disable ribbons/extra secondaries first; determinism ON when events drive gameplay.
-
+## Add-on Pack — Big Plumes, Beams, Weather, Liquids, AOE
+### Plumes & Dust
+Use one large fixed bounds volume or tile by area; prefer fewer, larger sprites; cap GPU max alive (scene ≤10k).
+### Beams
+Bounds span source↔target +20%; reduce fork rate at Far LOD; clamp emissive to avoid bloom blowouts.
+### Weather
+Wind via MPC; Snow on CPU when you need collisions, GPU for storm fields; Far LOD removes secondaries.
+### Liquids
+Strict pooling; kill droplets after 2nd bounce; wet decals short-lived; limit concurrent splash systems.
+### AOE
+Budget by tier; disable ribbons/extra secondaries first; determinism ON when gameplay events depend on FX timing.
 ## QA Checklist
 No popping from bounds; significance never kills primary read; GPU peak stays under target; Far LOD is still readable at 30–40m; soak test shows no growth.
 ## Release Notes

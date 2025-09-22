@@ -32,16 +32,15 @@ Basic materials, BP traces/events, and one working hit event (from your project 
 ### Bullet Impact Decal
 Soft circular mask; 6–14 cm; rotate from normal/tangent; life 8–30 s (game) or 0.8–1.5 s (cinematic scorch).
 ### Scorch / Burn Mark
-DBuffer decal with subtle normal dent + dark ring; size 20–60 cm; atlas variants; smooth fade.
+DBuffer decal with subtle normal dent + dark ring; 20–60 cm; atlas variants; smooth fade.
 ### Wet Splash (Water)
-Radial ring, very low roughness + darker albedo; life 0.6–2.0 s; disable on Low.
+Radial ring; low roughness + darker albedo; life 0.6–2.0 s; disable on Low.
 ### Blood Splatter
-Albedo only, no normals; small cluster atlas; splat angle from surface tangent; life 30–120 s or pooled; comfort: clamp saturation.
+Albedo only; small cluster atlas; splat angle from surface tangent; life 30–120 s or pooled; clamp saturation.
 ### Frost Overlay (Camera)
-Post-process blendable; crystalline mask × radial gradient; emissive subtle; fade 0.25–0.4 s; cooldown 1–2 s.
+Post-process blendable; crystalline mask × radial gradient; subtle emissive; fade 0.25–0.4 s; cooldown 1–2 s.
 ### Shield Ground Glow
 Unlit radial glyph; life 0.8–1.2 s; rotate from facing; disable on Low.
-
 
 ## QA Checklist
 No z-fighting; no stretched UVs on steep angles; fade is smooth; pooled decals never exceed cap; perf stable in overdraw view.

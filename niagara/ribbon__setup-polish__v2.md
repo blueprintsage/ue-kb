@@ -25,7 +25,11 @@ Ribbon renderer config → material with soft edge & UV from distance → width/
 - **Polish:** clamp stretch by speed; lifetime ≤0.25 s; disable trail when beam inactive.
 ## Add-on Pack — Ember Trails, Electric Trails, Sparkle Streaks
 DistanceAlongRibbon UVs; narrow core + soft fringe; lifetime 0.08–0.25 s; clamp stretch by speed; disable beyond 25–30 m; occasional intensity spikes for embers; crystalline mask for ice glints.
-
+## Add-on Pack — Ember Trails, Electric Trails, Sparkle Streaks
+DistanceAlongRibbon UVs; narrow core + soft fringe; lifetime 0.08–0.25 s; clamp stretch by speed; disable beyond 25–30 m.
+Ember: occasional intensity spikes; spawn from hot sparks.
+Electric: short punchy intensity bursts; jitter phase for crackle feel.
+Ice: crystalline mask multiply for glints; keep alpha conservative to avoid shimmer.
 ## QA Checklist
 No twisting or UV swimming; trails cull cleanly; impact streaks don’t spike overdraw.
 ## Release Notes

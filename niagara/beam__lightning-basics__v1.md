@@ -20,6 +20,10 @@
 Source→Target from player socket; noise wobble clamped by distance; core/shell materials; forks at 10–25% length; tip sprites at ends; capture tip: key BeamActive on whole frames, no MB for clarity.
 ## Improve Effect
 - Clamp beam width with distance; add camera-distance bias to emissive; expose `BeamColor`, `BeamWidth`, `ForkRate` as user params.
+## Add-on Pack — Player Beam, Forks & Flipbook Lightning
+Source→Target from player socket; noise wobble clamped by distance; core/shell materials; forks at 10–25% length; tip sprites at ends.
+Flipbook lightning: 8–16f sheet on tip/forks via Sub-UV.
+UE 5.1 note: if noise UVs crawl/shimmer, prefer world-space panners or reduce scroll speed.
 ## Version notes
 - Tested 5.1/5.3/5.4. If noise UVs “crawl” in 5.1, switch to world-space panning or reduce speed.
 ## Checks

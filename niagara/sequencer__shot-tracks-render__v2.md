@@ -30,7 +30,6 @@ Beam capture: key BeamActive; no MB; clamp highlights.
 Fire/Explosion: emissive spike for 2–4 frames; tone-mapper clamp; smoke preroll.  
 Fog/Env: continuity across shots (same seed/key times).  
 > Tip: For frosty camera hits, see Decals → Frost Overlay.
-
 ## Post FX: Ice Attack Grade
 - Lock exposure; cool white balance slightly; subtle bloom (threshold high, intensity low).
 - Optional LUT: gentle blue lift in mids; avoid crushing blacks to keep read.
@@ -38,6 +37,17 @@ Fog/Env: continuity across shots (same seed/key times).
 > Tip: For a brief frosty screen hit on heavy impacts, see **Impact Decals — Spawn & Polish (Unified) → Optional: Frost Overlay**.
 ## Tip: Beam Capture
 - For readability shots, key `BeamActive` on/off on whole frames; render with motion blur off; clamp exposure so fork detail isn’t crushed.
+## Add-on Pack — Preroll, Beats, Capture Tips
+Preroll 2–4 s for loops; Activate/Deactivate on whole frames; lock exposure/WB.
+Timing: Anticipation → Impact/Climax → Settle (use sub-sequences for clean edits).
+Beam capture: key BeamActive; no motion blur; clamp highlights to avoid bloom blowouts.
+Fire/Explosion: add a 2–4 frame emissive spike; preroll smoke so frame 0 is “settled.”
+Projectile Beats: pre-key muzzle, align trail start to the frame, impact on whole frame, settle 0.3–0.8 s; MRQ: keep motion blur OFF for readability.
+> Tip: For frosty hits, see Decals → Frost Overlay.
+## Add-on Pack — Lighting & Post (Stylized Readability)
+Key light: broad, soft; rim for silhouette; keep fill low to preserve shape.
+Clamp bloom (≤1.0) and highlights; use exposure **fixed** for readability tests.
+Add ColorGrading preset per biome; create `PP_Stylized_Capture` with vignette OFF, chromatic aberration OFF.
 ## QA Checklist
 FX timing matches keys; no exposure breathing; rendered color close to viewport; no dropped events; MRQ output plays cleanly at target fps.
 ## Release Notes

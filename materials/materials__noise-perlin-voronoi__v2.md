@@ -24,7 +24,13 @@ Material function basics; understanding of UVs.
 - Voronoi cells (distance) → edge mask (1 - smoothstep) → warp UV by Perlin (Scale 0.3–0.6).
 - Bias to 0–1, then **clip** very thin lines (<0.05) to avoid shimmer at distance.
 - Feed as opacity/emissive mask for frosty edges or impact cracks.
-
+## Add-on Pack — Crystalline, Dark Veins
+Crystalline: Voronoi edges warped by Perlin; clamp thin lines <0.05 to avoid shimmer.
+Dark Veins (Shield): invert thin edge mask + slow warp; multiply subtly into opacity/emissive.
+## Add-on Pack — Texture Authoring (Stylized)
+Author at display scale (no micro-noise). Build crisp masks first, then add gentle warps.
+Create 2–3 value steps max per mask; preview in grayscale and at Far LOD sizes.
+Pack channels (R=mask, G=edge, B=warp seed, A=AO/height) to reduce lookups.
 ## QA Checklist
 No visible tiling at gameplay distances; masks stay 0–1; animated noise doesn’t shimmer excessively.
 ## Release Notes

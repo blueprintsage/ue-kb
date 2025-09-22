@@ -36,7 +36,11 @@ Expose `FX_Scale` (affects bounds, sizes, speeds) and `FX_Tint`; drive by DT/Cur
 Fresnel rim; scanline gate; optional tiny refraction; instances `MI_Shield_Shell/Core`; MPC keys `Shield_*`.
 ### Icy Fresnel & Mask
 Fresnel rim × Voronoi-warped mask; optional refraction 0.01–0.03; `Ice_*` MPC keys.
-
+## Add-on Pack — Projectile Materials (Pt.1–2)
+Core: unlit additive shell + masked core; fresnel rim for read; clamp emissive via `FX_Intensity` curve.
+Trail: ribbon-friendly mat with DistanceAlongRibbon; soft fringe via width mask; tint from `FX_Tint`.
+Impact: scorch decal material variant + smoke sheet; switch by quality (Low: decal OFF).
+Param surface: expose `FX_Scale`, `FX_Tint`, `FX_Intensity`, `FX_Softness`; drive via DT rows.
 ## QA Checklist
 Changes live-tweak in PIE; swapping presets doesn’t hitch; no circular refs; materials compile clean.
 ## Release Notes

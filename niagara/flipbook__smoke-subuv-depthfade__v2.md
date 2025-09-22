@@ -32,8 +32,19 @@ Short life 0.15–0.35 s; darker base → quick fade; soften intersections aggre
 Very low contrast; scale by distance to camera; lifetime 2–6 s; disable secondaries at Far LOD.
 ### Dust Storm Sheets
 Wide sprites with low-freq panners; random per-emitter UV off; clip bright albedo to avoid banding.
-## Version notes
-5.1–5.4 OK; reduce emissive if banding; use GPU only for big sheets and cap max alive.
+## Add-on Pack — Smoke/Steam, Dust, Liquids
+### Steam Column (Beginner)
+Spawn small radius; upward vel 150–250 cm/s + light Drag; 12–16f flipbook (life-linear); DepthFade 25–40 cm; Size ↑ over life; warm→cool gray; Alpha ease-out; lifetime 1.2–2.0 s; tiny Curl Noise wobble.
+### Rotor Wash / Landing Dust
+Ring burst + low cloud; outward radial + slight lift; low-contrast sheet; DepthFade 15–25 cm; fixed bounds = landing radius ×1.2.
+### Cold Smoke (Ice)
+Cool palette; life 0.3–0.7 s; DepthFade 20–35 cm; gentle alpha out.
+### Water Mist / Splash Puff
+Life 0.15–0.35 s; darker base → quick fade; DepthFade 30–50 cm; prefer fewer, larger sprites.
+### Fog (Ground)
+Very low contrast; distance-scaled; life 2–6 s; disable secondaries at Far LOD.
+### Dust Storm Sheets
+Wide sprites with low-freq panners; random per-emitter UV offset; clamp bright albedo to avoid banding.
 ## QA Checklist
 No frame pops; intersections stay soft; opacity never hard-cuts; perf stable at 60/120 fps.
 ## Release Notes
