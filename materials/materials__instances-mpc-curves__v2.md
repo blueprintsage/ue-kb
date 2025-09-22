@@ -20,6 +20,23 @@ UE5 material basics; comfort with parameter naming.
 4) **Curves** — Create Curve assets for Color/Intensity vs. distance or difficulty; sample from BP and push to MPC each tick or on state change.  
 5) **Hooks** — From BP/Niagara, set MI params and MPC values; no asset hard refs in gameplay code—go through a router or soft refs.  
 6) **Presets** — Low/Med/High via DataTable row → apply to MIs & MPC in one call.
+## Recipe: Icy Fresnel & Refraction Mask
+- **MF_IceRim:** Fresnel → pow → remap to 0–1 → multiply by blue-white tint; expose RimWidth/Intensity.
+- **Mask:** MF_Voronoi (edges) warped by low-freq Perlin → smoothstep for crystalline breakup.
+- **Refraction (optional):** mask * small scalar (0.01–0.03); gate with `bEnableRefraction`.
+- **Instance setup:** M_IceCore (opaque) for shards; M_IceShell (translucent) for thin icicles.
+- **MPC hooks:** `Ice_Intensity`, `Ice_Tint`, `Ice_RimWidth` for global grade tweaks.
+- **Version notes:** 5.1–5.2 + Lumen → keep refraction low or off on Low preset.
+## Add-on Pack — Color/Scale Presets, Shield/Ice Recipes
+### Presets via DT
+Low/Med/High rows with Color, Intensity, LifetimeBias; one Apply call sets MIs + MPC.
+### Easy Scale/Color Control (AOE)
+Expose `FX_Scale` (affects bounds, sizes, speeds) and `FX_Tint`; drive by DT/Curve; lock non-tunable params in MIs.
+### Shield Material
+Fresnel rim; scanline gate; optional tiny refraction; instances `MI_Shield_Shell/Core`; MPC keys `Shield_*`.
+### Icy Fresnel & Mask
+Fresnel rim × Voronoi-warped mask; optional refraction 0.01–0.03; `Ice_*` MPC keys.
+
 ## QA Checklist
 Changes live-tweak in PIE; swapping presets doesn’t hitch; no circular refs; materials compile clean.
 ## Release Notes

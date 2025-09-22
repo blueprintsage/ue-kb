@@ -20,6 +20,20 @@ One working Niagara system; basic knowledge of scalability settings.
 4) **GPU Sims** — Cap particles/sec; enable **Determinism** where possible; prefer **culled modules** over hard kills; use **fixed timestep** if jittery.  
 5) **Pooling & Lifetime** — Add lifetime ceiling; soft-kill on stop; soak test 5 minutes, track peak particle counts.  
 6) **Instrumentation** — Use Stat Niagara + overdraw view; log once per second peak counts; bake findings into MI/curve presets.
+## Optimization: Ice Attack
+- **DBuffer decals** cost: prefer short lifespan (<1.2 s) and small size; atlas where possible.
+- **Translucency:** keep refraction OFF on Low; clamp blendable passes; cap total icicle meshes per burst.
+- **GPU sims:** if using smoke/glints on GPU, target ≤ 5k max alive; fixed bounds to avoid cull pops.
+## Optimization: Beams
+- Fixed bounds span source↔target plus 20% margin; fork beams share bounds with primary.
+- Significance: reduce fork rate first; clamp emissive at Far LOD; keep ground spark budget tiny.
+## Add-on Pack — Big Plumes, Beams, Weather, Liquids, AOE
+Plumes/Dust: one large fixed bounds or tiled volumes; prefer fewer larger sprites; cap GPU max alive (≤10k scene).  
+Beams: bounds span src↔tgt +20%; reduce fork rate at Far LOD; clamp emissive.  
+Weather: wind via MPC; Snow on CPU for collisions, GPU for storms; Far LOD disables secondaries.  
+Liquids: strict pooling; kill after 2nd bounce; decals short-lived.  
+AOE: budget by tier; disable ribbons/extra secondaries first; determinism ON when events drive gameplay.
+
 ## QA Checklist
 No popping from bounds; significance never kills primary read; GPU peak stays under target; Far LOD is still readable at 30–40m; soak test shows no growth.
 ## Release Notes

@@ -6,6 +6,8 @@
 - Renderer: **Sprite**; material can be a flat debug color.  
 - Spawn Rate 30–60; Lifetime 1.5–2.5s; Init Size 20–40; Init Velocity Z=50.  
 - Color Over Life: start opaque → fade near end.
+## Add-on Pack — First Texture & Additive
+Import small sprite; additive material; spawn rate vs burst; size/color/alpha curves; gravity & collisions basics; loop tricks (seed, phase).
 
 ## Checks
 - Sprites appear, rise slightly, fade; Spawn Rate clearly changes density.

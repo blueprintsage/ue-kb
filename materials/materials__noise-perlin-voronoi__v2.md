@@ -20,6 +20,11 @@ Material function basics; understanding of UVs.
 4) **Use Cases** — Smoke alpha breakup, heat refraction mask, shield ripple mask, decal edge softening.  
 5) **Preview** — Simple material to visualize noise; MI presets (Fine/Medium/Coarse).  
 6) **Performance** — Prefer packed masks; cap octaves; animate via low-freq panners.
+## Use Case: Crystalline Masks (Ice)
+- Voronoi cells (distance) → edge mask (1 - smoothstep) → warp UV by Perlin (Scale 0.3–0.6).
+- Bias to 0–1, then **clip** very thin lines (<0.05) to avoid shimmer at distance.
+- Feed as opacity/emissive mask for frosty edges or impact cracks.
+
 ## QA Checklist
 No visible tiling at gameplay distances; masks stay 0–1; animated noise doesn’t shimmer excessively.
 ## Release Notes

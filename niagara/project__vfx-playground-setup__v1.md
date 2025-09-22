@@ -6,6 +6,10 @@
 - Level: `VFX_Playground` (neutral lighting), camera bookmark for consistent framing.
 - Folders: `/VFX/{Systems,Emitters,Materials,Textures/Flipbooks,Meshes,Curves}`.
 - Starter system: Template **Fountain** → `NS_SmokeTest` (Sprite renderer, flipbook-ready).
+## Add-on Pack — Template & Wind
+Third Person template okay; keep tests in `/VFX/*/`.  
+Wind MPC keys (`Wind_Speed`, `Wind_Dir`) sampled in smoke/fog materials; beginner maps for Smoke_Steam/Fire/Env.
+
 
 ## Checks
 - New system renders sprites; changing Spawn Rate clearly changes density.

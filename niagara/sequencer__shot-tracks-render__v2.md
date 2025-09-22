@@ -20,6 +20,24 @@ UE5 Sequencer basics; at least one Niagara system to animate.
 4) **Timing**: Use sub-sequences for beats; keep FX events on whole-frame timestamps; add pre-roll if warmup needed.  
 5) **Render (MRQ)**: Pick preset → Temporal AA high; output EXR/PNG; disable motion blur for readability shots; clamp tone mapper if color shifts.  
 6) **Sanity Pass**: Play-in-editor at 60/120 fps; verify readbacks match render.
+## Add-on: Projectile Beats (Anticipation → Climax → Settle)
+- **Keys:** pre-key muzzle (anticipation), align trail start to frame, impact on whole frame, settle tail 0.3–0.8 s.
+- **MRQ:** turn motion blur OFF for readability passes; clamp highlights on muzzle/impact spikes.
+## Add-on Pack — Preroll, Beats, Cinematic Tips
+Preroll 2–4 s for loops; Activate/Deactivate on whole frames; lock exposure/WB.  
+Timing beats: Anticipation → Impact/Climax → Settle; sub-sequences for clean edits.  
+Beam capture: key BeamActive; no MB; clamp highlights.  
+Fire/Explosion: emissive spike for 2–4 frames; tone-mapper clamp; smoke preroll.  
+Fog/Env: continuity across shots (same seed/key times).  
+> Tip: For frosty camera hits, see Decals → Frost Overlay.
+
+## Post FX: Ice Attack Grade
+- Lock exposure; cool white balance slightly; subtle bloom (threshold high, intensity low).
+- Optional LUT: gentle blue lift in mids; avoid crushing blacks to keep read.
+- Version notes: 5.1 MRQ tone-mapper → use **Cinematic** preset; in 5.3+ default preset matches viewport better.
+> Tip: For a brief frosty screen hit on heavy impacts, see **Impact Decals — Spawn & Polish (Unified) → Optional: Frost Overlay**.
+## Tip: Beam Capture
+- For readability shots, key `BeamActive` on/off on whole frames; render with motion blur off; clamp exposure so fork detail isn’t crushed.
 ## QA Checklist
 FX timing matches keys; no exposure breathing; rendered color close to viewport; no dropped events; MRQ output plays cleanly at target fps.
 ## Release Notes

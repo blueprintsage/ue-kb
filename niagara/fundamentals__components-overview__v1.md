@@ -1,6 +1,12 @@
 # Niagara Components Overview
 **Domain:** niagara • **Level:** beginner • **Engine:** UE5  
 **Objective:** Know System/Emitter/Modules/Renderer and where User params live.
+## Add-on Pack — Readability Principles (from UE4 Fundamentals)
+Gameplay: primary read first, secondaries support.  
+Timing: anticipation→impact→settle; don’t let tails hide gameplay.  
+Shape: bold silhouette at Near/Mid; avoid noisy thin lines at Far.  
+Contrast: luminance > color; ensure silhouette reads in grayscale.  
+Color: hue separation from background; cap emissive; presets per biome.
 
 ## Notes
 - **System** owns one+ **Emitters**. Emitters have **Spawn/Update** stacks with modules (Spawn Rate, Init Velocity, Color Over Life, etc.).  

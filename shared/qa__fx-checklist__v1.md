@@ -12,6 +12,11 @@ assets: []
 deps: []
 last_updated: 2025-09-21
 ---
+## Add-on: Readability Rubric (Gnomon/Fundamentals)
+- **Gameplay:** primary read clear at Near/Mid/Far; tails don’t hide gameplay.
+- **Timing:** anticipation → impact → settle present and distinct.
+- **Shape/Contrast:** bold silhouette; grayscale pass reads; emissive clamps respected.
+- **Color:** hue separation from background; presets consistent across biomes.
 
 
 # FX QA Checklist — Ship Safe
