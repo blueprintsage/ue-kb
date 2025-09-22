@@ -1,105 +1,107 @@
 {
-  "cards": [
-    { "slug": "bp_variables_overview-carry-card", "title": "Blueprint Variables — Carry Card", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/variables__overview-carry-card__v1.md", "tags": ["bool","float","struct","array","map","set"] },
-    { "slug": "niagara_project_vfx-playground-setup", "title": "VFX Playground Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/project__vfx-playground-setup__v1.md", "tags": ["setup","folders","subuv"] },
+"cards": [
+{ "slug": "bp_variables_overview-carry-card", "title": "Blueprint Variables — Carry Card", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/variables__overview-carry-card__v1.md", "tags": ["bool","float","struct","array","map","set"] },
+{ "slug": "niagara_project_vfx-playground-setup", "title": "VFX Playground Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/project__vfx-playground-setup__v1.md", "tags": ["setup","folders","subuv"] },
 
-    { "slug": "niagara_flipbook_smoke-subuv-depthfade_v2", "title": "Flipbook — Smoke + SubUV + DepthFade (Unified)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__smoke-subuv-depthfade__v2.md", "tags": ["flipbook","subuv","depthfade","sprite","unified"] },
 
-    { "slug": "niagara_fundamentals_components-overview", "title": "Niagara Components Overview", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/fundamentals__components-overview__v1.md", "tags": ["system","emitter","renderer","user-params"] },
-    { "slug": "niagara_sprite-emitter_first-emitter-setup", "title": "First Sprite Emitter Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-emitter__first-emitter-setup__v1.md", "tags": ["sprite","spawn-rate","color-over-life"] },
-    { "slug": "niagara_emitter_spawn-update-stacks", "title": "Emitter Stages: Spawn & Update", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/emitter__spawn-update-stacks__v1.md", "tags": ["forces","drag","order"] },
-    { "slug": "niagara_sprite-motion_init-velocity-basics", "title": "Sprite Motion: Init Velocity Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-motion__init-velocity-basics__v1.md", "tags": ["velocity","gravity","alpha"] },
-    { "slug": "niagara_particles_center-rotation", "title": "Center Rotation Particles", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/particles__center-rotation__v1.md", "tags": ["curl-noise","spin","spiral"] },
-    { "slug": "niagara_location_shape-location-basics", "title": "Shape Location Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/location__shape-location-basics__v1.md", "tags": ["spawn","shapes","surface-only"] },
-    { "slug": "niagara_gpu-sprite_basics", "title": "GPU Sprite — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/gpu-sprite__basics__v1.md", "tags": ["gpu","sprites","performance"] },
-    { "slug": "materials_sprite_first-vfx-material", "title": "First VFX Material (Sprite)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/sprite__first-vfx-material__v1.md", "tags": ["translucent","depthfade","particle-color"] },
+{ "slug": "niagara_flipbook_smoke-subuv-depthfade_v2", "title": "Flipbook — Smoke + SubUV + DepthFade (Unified)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/flipbook__smoke-subuv-depthfade__v2.md", "tags": ["flipbook","subuv","depthfade","sprite","unified"] },
 
-    { "slug": "niagara_ribbon_setup-polish_v2", "title": "Ribbon — Setup & Polish (Unified)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/ribbon__setup-polish__v2.md", "tags": ["ribbon","trails","uv","unified"] },
 
-    { "slug": "niagara_mesh-renderer_basics", "title": "Mesh Renderer — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/mesh-renderer__basics__v1.md", "tags": ["mesh","renderer","velocity-facing"] },
-    { "slug": "materials_distortion_heat-warp", "title": "Heat Distortion (Screen-Space Warp)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/distortion__heat-warp__v1.md", "tags": ["distortion","refraction","panner"] },
-    { "slug": "materials_uv_pan-distort", "title": "UV Manipulation — Pan/Distort", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/uv__pan-distort__v1.md", "tags": ["uv","panner","distortion"] },
+{ "slug": "niagara_fundamentals_components-overview", "title": "Niagara Components Overview", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/fundamentals__components-overview__v1.md", "tags": ["system","emitter","renderer","user-params"] },
+{ "slug": "niagara_sprite-emitter_first-emitter-setup", "title": "First Sprite Emitter Setup", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-emitter__first-emitter-setup__v1.md", "tags": ["sprite","spawn-rate","color-over-life"] },
+{ "slug": "niagara_emitter_spawn-update-stacks", "title": "Emitter Stages: Spawn & Update", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/emitter__spawn-update-stacks__v1.md", "tags": ["forces","drag","order"] },
+{ "slug": "niagara_sprite-motion_init-velocity-basics", "title": "Sprite Motion: Init Velocity Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sprite-motion__init-velocity-basics__v1.md", "tags": ["velocity","gravity","alpha"] },
+{ "slug": "niagara_particles_center-rotation", "title": "Center Rotation Particles", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/particles__center-rotation__v1.md", "tags": ["curl-noise","spin","spiral"] },
+{ "slug": "niagara_location_shape-location-basics", "title": "Shape Location Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/location__shape-location-basics__v1.md", "tags": ["spawn","shapes","surface-only"] },
+{ "slug": "niagara_gpu-sprite_basics", "title": "GPU Sprite — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/gpu-sprite__basics__v1.md", "tags": ["gpu","sprites","performance"] },
+{ "slug": "materials_sprite_first-vfx-material", "title": "First VFX Material (Sprite)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/sprite__first-vfx-material__v1.md", "tags": ["translucent","depthfade","particle-color"], "seeAlso": ["materials_vfx_core-library"] },
 
-    { "slug": "materials_noise-perlin-voronoi_v2", "title": "Noise — Perlin & Voronoi (Unified)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/materials__noise-perlin-voronoi__v2.md", "tags": ["noise","perlin","voronoi","function","unified"] },
 
-    { "slug": "niagara_flamethrower_main-flame", "title": "Flamethrower — Main Flame", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/flamethrower__main-flame__v1.md", "tags": ["cone","subuv","velocity-stretch"] },
-    { "slug": "niagara_flamethrower_smoke", "title": "Flamethrower — Smoke", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/flamethrower__smoke__v1.md", "tags": ["smoke","drag","depthfade"] },
-    { "slug": "meshes_custom-mesh_import-setup", "title": "Custom Mesh — Import & Setup (for Niagara)", "domain": "meshes", "level": "beginner", "engine": "UE5", "path": "meshes/custom-mesh__import-setup__v1.md", "tags": ["fbx","lod","mesh-renderer"] },
-    { "slug": "materials_rt_draw-material", "title": "Render Target — Draw Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/rt__draw-material__v1.md", "tags": ["render-target","draw","bp"] },
-    { "slug": "materials_rt_bake-texture", "title": "Render Target — Bake to Texture", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/rt__bake-texture__v1.md", "tags": ["render-target","bake","texture"] },
+{ "slug": "niagara_ribbon_setup-polish_v2", "title": "Ribbon — Setup & Polish (Unified)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/ribbon__setup-polish__v2.md", "tags": ["ribbon","trails","uv","unified"] },
 
-    { "slug": "materials_decals_impact-spawn-polish_v2", "title": "Impact Decals — Spawn & Polish (Unified)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/decals__impact-spawn-polish__v2.md", "tags": ["decal","impact","bp","polish","unified"] },
 
-    { "slug": "niagara_beam_lightning-basics", "title": "Beam / Lightning — Basics", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/beam__lightning-basics__v1.md", "tags": ["beam","lightning","ribbon"] },
+{ "slug": "niagara_mesh-renderer_basics", "title": "Mesh Renderer — Basics", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/mesh-renderer__basics__v1.md", "tags": ["mesh","renderer","velocity-facing"] },
+{ "slug": "materials_distortion_heat-warp", "title": "Heat Distortion (Screen-Space Warp)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/distortion__heat-warp__v1.md", "tags": ["distortion","refraction","panner"] },
+{ "slug": "materials_uv_pan-distort", "title": "UV Manipulation — Pan/Distort", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/uv__pan-distort__v1.md", "tags": ["uv","panner","distortion"] },
 
-    { "slug": "materials_instances-mpc-curves_v2", "title": "Materials — Instances, MPC & Curves (Unified)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/materials__instances-mpc-curves__v2.md", "tags": ["instances","mpc","curves","workflow","unified"] },
 
-    { "slug": "niagara_sequencer_shot-tracks-render_v2", "title": "Sequencer — Shot, Tracks & Render (Unified)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sequencer__shot-tracks-render__v2.md", "tags": ["sequencer","camera","tracks","render","unified"] },
+{ "slug": "materials_noise-perlin-voronoi_v2", "title": "Noise — Perlin & Voronoi (Unified)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/materials__noise-perlin-voronoi__v2.md", "tags": ["noise","perlin","voronoi","function","unified"] },
 
-    { "slug": "niagara_performance_bounds-significance-gpu_v2", "title": "Performance — Bounds, Significance & GPU (Unified)", "domain": "niagara", "level": "advanced", "engine": "UE5", "path": "niagara/performance__bounds-significance-gpu__v2.md", "tags": ["bounds","lod","significance","gpu","unified"] },
 
-    { "slug": "niagara_portal_rim-outline-polish_v2", "title": "Portal — Rim Outline & Polish (Unified)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/portal__rim-outline-polish__v2.md", "tags": ["portal","rim","spark-layer","unified"] },
+{ "slug": "niagara_flamethrower_main-flame", "title": "Flamethrower — Main Flame", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/flamethrower__main-flame__v1.md", "tags": ["cone","subuv","velocity-stretch"] },
+{ "slug": "niagara_flamethrower_smoke", "title": "Flamethrower — Smoke", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/flamethrower__smoke__v1.md", "tags": ["smoke","drag","depthfade"] },
+{ "slug": "meshes_custom-mesh_import-setup", "title": "Custom Mesh — Import & Setup (for Niagara)", "domain": "meshes", "level": "beginner", "engine": "UE5", "path": "meshes/custom-mesh__import-setup__v1.md", "tags": ["fbx","lod","mesh-renderer"] },
+{ "slug": "materials_rt_draw-material", "title": "Render Target — Draw Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/rt__draw-material__v1.md", "tags": ["render-target","draw","bp"] },
+{ "slug": "materials_rt_bake-texture", "title": "Render Target — Bake to Texture", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/rt__bake-texture__v1.md", "tags": ["render-target","bake","texture"] },
 
-    { "slug": "niagara_hit-impact_spark-debris", "title": "Hit Impact — Sparks & Debris", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/hit-impact__spark-debris__v1.md", "tags": ["impact","sparks","debris","ribbon","mesh"] },
-    { "slug": "niagara_meteor_trail-impact", "title": "Meteor — Trail + Impact", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/meteor__trail-impact__v1.md", "tags": ["trail","ribbon","impact","events"] },
-    { "slug": "bp_niagara-bridge_gameplay-hooks", "title": "BP ↔ Niagara — Gameplay Hooks", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/niagara-bridge__gameplay-hooks__v1.md", "tags": ["user-params","timelines","events"] },
-    { "slug": "niagara_modules_scratchpad-101", "title": "Custom Module — Scratchpad 101", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/modules__scratchpad-101__v1.md", "tags": ["scratchpad","module","user-params"] },
-    { "slug": "niagara_modules_scratchpad-201-reusable", "title": "Custom Module — Reusable Asset (201)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/modules__scratchpad-201-reusable__v1.md", "tags": ["module","asset","reusability"] },
-    { "slug": "niagara_data-interface_attribute-reader-events", "title": "Data Interfaces — Attribute Reader & Events", "domain": "niagara", "level": "advanced", "engine": "UE5", "path": "niagara/data-interface__attribute-reader-events__v1.md", "tags": ["attribute-reader","events","collision"] },
-    { "slug": "niagara_templates_system-reuse", "title": "Templates & Reuse — System Patterns", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/templates__system-reuse__v1.md", "tags": ["templates","reuse","naming"] },
 
-    { "slug": "materials_viewport_cost-debugging", "title": "Viewport Cost Debugging", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/viewport__cost-debugging__v1.md", "tags": ["perf","viewmodes","stats","source:book:butler"] },
-    { "slug": "materials_detail-normals_noise-packing", "title": "Detail Normals & Noise Packing", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/detail-normals__noise-packing__v1.md", "tags": ["detail-normal","mask-packing","source:book:butler"] },
-    { "slug": "materials_parallax_height-blend", "title": "Parallax & Height-Blend (Ground/Decals)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/parallax__height-blend__v1.md", "tags": ["parallax","heightlerp","source:book:butler"] },
+{ "slug": "materials_decals_impact-spawn-polish_v2", "title": "Impact Decals — Spawn & Polish (Unified)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/decals__impact-spawn-polish__v2.md", "tags": ["decal","impact","bp","polish","unified"] },
 
-    { "slug": "niagara_beam_laser-vfx", "title": "Laser Beam VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/beam__laser-vfx__v1.md", "tags": ["beam","laser","blueprints","niagara","remix:original"] },
-    { "slug": "niagara_plasma_blaster-vfx", "title": "Plasma Blaster VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/plasma__blaster-vfx__v1.md", "tags": ["plasma","projectile","trail","niagara","remix:original"] },
-    { "slug": "niagara_shield_energy-vfx", "title": "Energy Shield VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/shield__energy-vfx__v1.md", "tags": ["shield","fresnel","refraction","niagara","remix:original"] },
-    { "slug": "niagara_grenade_pulse-vfx", "title": "Pulse Grenade VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/grenade__pulse-vfx__v1.md", "tags": ["grenade","shock-ring","debris","niagara","remix:original"] },
 
-    { "slug": "niagara_projectile_core-materials", "title": "Projectile — Core Materials", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__core-materials__v1.md", "tags": ["projectile","materials","emissive","niagara","remix:original"] },
-    { "slug": "niagara_projectile_trail-ribbon", "title": "Projectile — Trail (Ribbon)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__trail-ribbon__v1.md", "tags": ["projectile","trail","ribbon","uv","niagara","remix:original"] },
-    { "slug": "niagara_projectile_impact-decal-smoke", "title": "Projectile — Impact Decal + Smoke", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__impact-decal-smoke__v1.md", "tags": ["impact","decal","smoke","events","niagara","remix:original"] },
-    { "slug": "niagara_projectile_lights-camera-feedback", "title": "Projectile — Lights & Camera Feedback", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__lights-camera-feedback__v1.md", "tags": ["lights","camera-shake","feedback","niagara","remix:original"] },
-    { "slug": "niagara_projectile_cleanup-lifetime", "title": "Projectile — Cleanup & Lifetime", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__cleanup-lifetime__v1.md", "tags": ["cleanup","lifetime","pooling","niagara","remix:original"] },
-    { "slug": "bp_vfx-lib_spawn-router", "title": "VFX Library — Spawn Router", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/vfx-lib__spawn-router__v1.md", "tags": ["bp","router","datatable","spawner","remix:original"] },
-    { "slug": "bp_projectile_gameplay-hooks", "title": "Projectile — Gameplay Hooks", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/projectile__gameplay-hooks__v1.md", "tags": ["bp","notify","events","cleanup","remix:original"] },
-    { "slug": "shared_qa_projectile-fx-checks", "title": "QA — Projectile FX Checks", "domain": "shared", "level": "all", "engine": "UE5", "path": "shared/qa__projectile-fx-checks__v1.md", "tags": ["qa","perf","determinism","remix:original"] },
+{ "slug": "niagara_beam_lightning-basics", "title": "Beam / Lightning — Basics", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/beam__lightning-basics__v1.md", "tags": ["beam","lightning","ribbon"] },
 
-    { "slug": "materials_fundamentals_base-material", "title": "Simple Base Material", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__base-material__v1.md", "tags": ["fundamentals","base"] },
-    { "slug": "materials_fundamentals_two-way-blend", "title": "2-Way Material Blend", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__two-way-blend__v1.md", "tags": ["blend","heightlerp"] },
-    { "slug": "materials_fundamentals_testing-tweaks", "title": "Testing & Tweaks", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__testing-tweaks__v1.md", "tags": ["testing","workflow"] },
-    { "slug": "materials_ambient-occlusion_distance-field", "title": "Distance Field AO Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/ambient-occlusion__distance-field__v1.md", "tags": ["dfao","ambient-occlusion"] },
-    { "slug": "materials_stack-layer_setup", "title": "Stack Layer Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/stack-layer__setup__v1.md", "tags": ["layered","attributes"] },
-    { "slug": "materials_liquids_glass-condensation", "title": "Glass Condensation", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/liquids__glass-condensation__v1.md", "tags": ["liquids","glass","condensation"] },
-    { "slug": "materials_parallax_occlusion-mapping", "title": "Parallax Occlusion Mapping", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/parallax__occlusion-mapping__v1.md", "tags": ["pom","parallax"] },
-    { "slug": "materials_terrain_auto-material", "title": "Auto Terrain Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/terrain__auto-material__v1.md", "tags": ["terrain","auto-material"] },
-    { "slug": "materials_vfx_core-library", "title": "VFX Materials — Core Library", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/vfx__core-library__v1.md", "tags": ["vfx","flipbooks"] },
-    { "slug": "niagara_velocity_burnup-trails", "title": "High-Velocity Burnup", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/velocity__burnup-trails__v1.md", "tags": ["velocity","trails","ribbons"] },
-    { "slug": "materials_chameleon_angle-fresnel", "title": "Chameleon Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/chameleon__angle-fresnel__v1.md", "tags": ["fresnel","stylized"] },
-    { "slug": "materials_hologram_dynamic-scanlines", "title": "Dynamic Hologram", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/hologram__dynamic-scanlines__v1.md", "tags": ["hologram","scanlines"] },
-    { "slug": "materials_liquids_toxic-river", "title": "Toxic River (Material)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/liquids__toxic-river__v1.md", "tags": ["liquids","river"] },
-    { "slug": "niagara_liquids_bubbles-debris", "title": "Toxic River — Bubbles & Debris", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/liquids__bubbles-debris__v1.md", "tags": ["liquids","bubbles","debris"] }
-  ],
-  "patterns": [
-    { "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
-    { "slug": "niagara_forces-order", "path": "patterns/niagara__forces-order__v1.md" },
-    { "slug": "niagara_bp-user-float-control", "path": "patterns/niagara__bp-user-float-control__v1.md" },
-    { "slug": "niagara_collision-to-spawn", "path": "patterns/niagara__collision-to-spawn__v1.md" },
-    { "slug": "niagara_toggle-system", "path": "patterns/niagara__toggle-system__v1.md" },
-    { "slug": "niagara_ribbon-basics", "path": "patterns/niagara__ribbon-basics__v1.md" },
-    { "slug": "project_folders-vfx", "path": "patterns/project__folders-vfx__v1.md" },
 
-    { "slug": "materials_fresnel-edge-shield", "path": "patterns/materials__fresnel-edge-shield__v1.md" },
-    { "slug": "shared_refraction-budget-checklist", "path": "patterns/shared__refraction-budget-checklist__v1.md" },
-    { "slug": "niagara_impact-ripple", "path": "patterns/niagara__impact-ripple__v1.md" },
-    { "slug": "materials_shock-ring-mf", "path": "patterns/materials__shock-ring-mf__v1.md" },
-    { "slug": "bp_montage-fx-events", "path": "patterns/bp__montage-fx-events__v1.md" },
-    { "slug": "niagara_projectile-fx-template", "path": "patterns/niagara__projectile-fx-template__v1.md" },
+{ "slug": "materials_instances-mpc-curves_v2", "title": "Materials — Instances, MPC & Curves (Unified)", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/materials__instances-mpc-curves__v2.md", "tags": ["instances","mpc","curves","workflow","unified"] },
 
-    { "slug": "niagara_trail-lifetime-tuning", "path": "patterns/niagara__trail-lifetime-tuning__v1.md" },
-    { "slug": "niagara_decal-pooling", "path": "patterns/niagara__decal-pooling__v1.md" },
-    { "slug": "shared_event-timing-determinism", "path": "patterns/shared__event-timing-determinism__v1.md" },
-    { "slug": "shared_projectile-pc-global", "path": "patterns/shared__projectile-pc-global__v1.md" }
-  ]
+
+{ "slug": "niagara_sequencer_shot-tracks-render_v2", "title": "Sequencer — Shot, Tracks & Render (Unified)", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/sequencer__shot-tracks-render__v2.md", "tags": ["sequencer","camera","tracks","render","unified"] },
+
+
+{ "slug": "niagara_performance_bounds-significance-gpu_v2", "title": "Performance — Bounds, Significance & GPU (Unified)", "domain": "niagara", "level": "advanced", "engine": "UE5", "path": "niagara/performance__bounds-significance-gpu__v2.md", "tags": ["bounds","lod","significance","gpu","unified"] },
+
+
+{ "slug": "niagara_portal_rim-outline-polish_v2", "title": "Portal — Rim Outline & Polish (Unified)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/portal__rim-outline-polish__v2.md", "tags": ["portal","rim","spark-layer","unified"] },
+
+
+{ "slug": "niagara_hit-impact_spark-debris", "title": "Hit Impact — Sparks & Debris", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/hit-impact__spark-debris__v1.md", "tags": ["impact","sparks","debris","ribbon","mesh"] },
+{ "slug": "niagara_meteor_trail-impact", "title": "Meteor — Trail + Impact", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/meteor__trail-impact__v1.md", "tags": ["trail","ribbon","impact","events"] },
+{ "slug": "bp_niagara-bridge_gameplay-hooks", "title": "BP ↔ Niagara — Gameplay Hooks", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/niagara-bridge__gameplay-hooks__v1.md", "tags": ["user-params","timelines","events"] },
+{ "slug": "niagara_modules_scratchpad-101", "title": "Custom Module — Scratchpad 101", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/modules__scratchpad-101__v1.md", "tags": ["scratchpad","module","user-params"] },
+{ "slug": "niagara_modules_scratchpad-201-reusable", "title": "Custom Module — Reusable Asset (201)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/modules__scratchpad-201-reusable__v1.md", "tags": ["module","asset","reusability"] },
+{ "slug": "niagara_data-interface_attribute-reader-events", "title": "Data Interfaces — Attribute Reader & Events", "domain": "niagara", "level": "advanced", "engine": "UE5", "path": "niagara/data-interface__attribute-reader-events__v1.md", "tags": ["attribute-reader","events","collision"] },
+{ "slug": "niagara_templates_system-reuse", "title": "Templates & Reuse — System Patterns", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/templates__system-reuse__v1.md", "tags": ["templates","reuse","naming"] },
+
+
+{ "slug": "materials_viewport_cost-debugging", "title": "Viewport Cost Debugging", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/viewport__cost-debugging__v1.md", "tags": ["perf","viewmodes","stats","source:book:butler"] },
+{ "slug": "materials_detail-normals_noise-packing", "title": "Detail Normals & Noise Packing", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/detail-normals__noise-packing__v1.md", "tags": ["detail-normal","mask-packing","source:book:butler"] },
+{ "slug": "materials_parallax_height-blend", "title": "Parallax & Height-Blend (Ground/Decals)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/parallax__height-blend__v1.md", "tags": ["parallax","heightlerp","source:book:butler"], "seeAlso": ["materials_parallax_occlusion-mapping"] },
+
+
+{ "slug": "niagara_beam_laser-vfx", "title": "Laser Beam VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/beam__laser-vfx__v1.md", "tags": ["beam","laser","blueprints","niagara","remix:original"] },
+{ "slug": "niagara_plasma_blaster-vfx", "title": "Plasma Blaster VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/plasma__blaster-vfx__v1.md", "tags": ["plasma","projectile","trail","niagara","remix:original"] },
+{ "slug": "niagara_shield_energy-vfx", "title": "Energy Shield VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/shield__energy-vfx__v1.md", "tags": ["shield","fresnel","refraction","niagara","remix:original"] },
+{ "slug": "niagara_grenade_pulse-vfx", "title": "Pulse Grenade VFX", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/grenade__pulse-vfx__v1.md", "tags": ["grenade","shock-ring","debris","niagara","remix:original"] },
+
+
+{ "slug": "niagara_projectile_core-materials", "title": "Projectile — Core Materials", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__core-materials__v1.md", "tags": ["projectile","materials","emissive","niagara","remix:original"] },
+{ "slug": "niagara_projectile_trail-ribbon", "title": "Projectile — Trail (Ribbon)", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__trail-ribbon__v1.md", "tags": ["projectile","trail","ribbon","uv","niagara","remix:original"] },
+{ "slug": "niagara_projectile_impact-decal-smoke", "title": "Projectile — Impact Decal + Smoke", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__impact-decal-smoke__v1.md", "tags": ["impact","decal","smoke","events","niagara","remix:original"] },
+{ "slug": "niagara_projectile_lights-camera-feedback", "title": "Projectile — Lights & Camera Feedback", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__lights-camera-feedback__v1.md", "tags": ["lights","camera-shake","feedback","niagara","remix:original"] },
+{ "slug": "niagara_projectile_cleanup-lifetime", "title": "Projectile — Cleanup & Lifetime", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/projectile__cleanup-lifetime__v1.md", "tags": ["cleanup","lifetime","pooling","niagara","remix:original"] },
+{ "slug": "bp_vfx-lib_spawn-router", "title": "VFX Library — Spawn Router", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/vfx-lib__spawn-router__v1.md", "tags": ["bp","router","datatable","spawner","remix:original"] },
+{ "slug": "bp_projectile_gameplay-hooks", "title": "Projectile — Gameplay Hooks", "domain": "bp", "level": "beginner", "engine": "UE5", "path": "bp/projectile__gameplay-hooks__v1.md", "tags": ["bp","notify","events","cleanup","remix:original"] },
+{ "slug": "shared_qa_projectile-fx-checks", "title": "QA — Projectile FX Checks", "domain": "shared", "level": "all", "engine": "UE5", "path": "shared/qa__projectile-fx-checks__v1.md", "tags": ["qa","perf","determinism","remix:original"] },
+
+
+{ "slug": "materials_fundamentals_base-material", "title": "Simple Base Material", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__base-material__v1.md", "tags": ["fundamentals","base"] },
+{ "slug": "materials_fundamentals_two-way-blend", "title": "2-Way Material Blend", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__two-way-blend__v1.md", "tags": ["blend","heightlerp"] },
+{ "slug": "materials_fundamentals_testing-tweaks", "title": "Testing & Tweaks", "domain": "materials", "level": "beginner", "engine": "UE5", "path": "materials/fundamentals__testing-tweaks__v1.md", "tags": ["testing","workflow"] },
+{ "slug": "materials_ambient-occlusion_distance-field", "title": "Distance Field AO Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/ambient-occlusion__distance-field__v1.md", "tags": ["dfao","ambient-occlusion"] },
+{ "slug": "materials_stack-layer_setup", "title": "Stack Layer Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/stack-layer__setup__v1.md", "tags": ["layered","attributes"] },
+{ "slug": "materials_liquids_glass-condensation", "title": "Glass Condensation", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/liquids__glass-condensation__v1.md", "tags": ["liquids","glass","condensation"] },
+{ "slug": "materials_parallax_occlusion-mapping", "title": "Parallax Occlusion Mapping", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/parallax__occlusion-mapping__v1.md", "tags": ["pom","parallax"], "seeAlso": ["materials_parallax_height-blend"] },
+{ "slug": "materials_terrain_auto-material", "title": "Auto Terrain Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/terrain__auto-material__v1.md", "tags": ["terrain","auto-material"] },
+{ "slug": "materials_vfx_core-library", "title": "VFX Materials — Core Library", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/vfx__core-library__v1.md", "tags": ["vfx","flipbooks"], "seeAlso": ["materials_sprite_first-vfx-material"] },
+{ "slug": "niagara_velocity_burnup-trails", "title": "High-Velocity Burnup", "domain": "niagara", "level": "intermediate", "engine": "UE5", "path": "niagara/velocity__burnup-trails__v1.md", "tags": ["velocity","trails","ribbons"] },
+{ "slug": "materials_chameleon_angle-fresnel", "title": "Chameleon Material", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/chameleon__angle-fresnel__v1.md", "tags": ["fresnel","stylized"] },
+{ "slug": "materials_hologram_dynamic-scanlines", "title": "Dynamic Hologram", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/hologram__dynamic-scanlines__v1.md", "tags": ["hologram","scanlines"] },
+{ "slug": "materials_liquids_toxic-river", "title": "Toxic River (Material)", "domain": "materials", "level": "intermediate", "engine": "UE5", "path": "materials/liquids__toxic-river__v1.md", "tags": ["liquids","river"] },
+{ "slug": "niagara_liquids_bubbles-debris", "title": "Toxic River — Bubbles & Debris", "domain": "niagara", "level": "beginner", "engine": "UE5", "path": "niagara/liquids__bubbles-debris__v1.md", "tags": ["liquids","bubbles","debris"] }
+],
+"patterns": [
+{ "slug": "niagara_subuv-by-age", "path": "patterns/niagara__subuv-by-age__v1.md" },
+{ "slug": "niagara_forces-order", "path": "patterns/niagara__forces-order__v1.md" },
+{ "slug": "niagara_bp-user-float-control", "path": "patterns/niagara__bp-user-float-control__v1.md" },
+{ "slug": "niagara_collision-to-spawn", "path": "patterns/niagara__collision-to-spawn__v1.md" },
+{ "slug": "niagara_toggle-system", "path": "patterns/niagara__toggle-system__v1.md" },
 }

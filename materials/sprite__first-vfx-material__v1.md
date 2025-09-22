@@ -10,6 +10,9 @@
 - **Color**: Unlit → **Emissive Color = RGB**. *(Lit: Base Color = RGB.)*
 - **Tint/Fade from Niagara**: multiply RGB and Opacity by **Particle Color**.
 - **Opaque plates fix**: if art lacks alpha, use `Luminance(RGB)` → remap `Saturate((L-0.15)/0.5)` as Opacity.
+## Add-on Pack — Related & Cross‑Link
+See also: **VFX Materials — Core Library** → `materials/vfx__core-library__v1.md`.
+Tip: Start with sprite basics here, then scale up using the Core Library presets.
 
 ## Checks
 - No halos at intersections (tune DepthFade).  

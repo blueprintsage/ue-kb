@@ -24,7 +24,9 @@ Stable height‑based blending for ground decals and materials.
 ## Steps
 - Remap height maps to 0..1 before lerp; expose `HeightContrast` for art.
 - Cap parallax steps; beyond 20m switch to cheaper height blend.
-
+## Add-on Pack — Related & Cross‑Link
+See also: **Parallax Occlusion Mapping** → `materials/parallax__occlusion-mapping__v1.md`.
+Clarify: Height‑Blend for ground/decals; POM for close, hero surfaces; both fade by distance.
 
 ## QA
 Grazing angles; decals on uneven terrain.
