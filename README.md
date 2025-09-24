@@ -1,4 +1,4 @@
-# Repo README — Capsules Workflow (v1.0)
+# ue-kb Repo README — Capsules Workflow (v1.0)
 
 **Scope:** All capsules (Blueprint, VFX, Non‑Niagara code)  •  **Date:** 2025‑09‑24 (CT)
 
@@ -78,12 +78,6 @@ This repo uses **capsules** to ship work in small, testable batches. Each capsul
 
 ---
 
-## Deprecated JSON
-
-`kb_index.json` is deprecated. Use capsule **MANIFEST.md** and **EXPORT\_QUEUE.md** instead. If a tool requires JSON later, add a lightweight `capsules.index.json` that points to each capsule’s manifest/queue.
-
----
-
 ## Commit Message Hints
 
 * Blueprint Batch: `feat(bp): add BR07–BR12 (cards) + k1 katas`
@@ -93,8 +87,5 @@ This repo uses **capsules** to ship work in small, testable batches. Each capsul
 
 ---
 
-## License & Credits
 
-* Add your preferred LICENSE file.
-* Credit external sources where appropriate (books, tutorials).
 * Internal mantra: *“This is me, and I keep marching.”*
