@@ -15,3 +15,9 @@ Total files this packet: 2 cards + 6 katas = 8
 | BR03 — Object Interaction & Material Swaps | 1 | 3 | Draft |
 | BR04 — SaveGame Loop | 1 | 3 | Draft |
 | BR06 — BT Patrol → Chase | 1 | 3 | Draft |
+| BR07 — HUD Bindings & Meters | 07-hud-bindings-meters/card.md | 3 | Draft |
+| BR08 — Menus & Pause Flow | 08-menus-pause/card.md | 3 | Draft |
+| BR09 — Projectiles & Collisions | 09-projectiles-collisions/card.md | 3 | Draft |
+| BR10 — Spawning & Waves | 10-spawning-waves/card.md | 3 | Draft |
+| BR11 — Blackboard Tasks: Attack/Investigate | 11-bb-tasks-attack/card.md | 3 | Draft |
+| BR12 — Perception/Hearing & Investigation | 12-perception-hearing/card.md | 3 | Draft |
