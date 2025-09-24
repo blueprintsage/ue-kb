@@ -21,3 +21,9 @@ Total files this packet: 2 cards + 6 katas = 8
 | BR10 — Spawning & Waves | 10-spawning-waves/card.md | 3 | Draft |
 | BR11 — Blackboard Tasks: Attack/Investigate | 11-bb-tasks-attack/card.md | 3 | Draft |
 | BR12 — Perception/Hearing & Investigation | 12-perception-hearing/card.md | 3 | Draft |
+| BR13 — Advanced Nodes & Editor Hygiene | 13-advanced-nodes-hygiene/card.md | 3 | Draft |
+| BR14 — Blueprint Architecture (Components/Interfaces) | 14-bp-architecture/card.md | 3 | Draft |
+| BR15 — Gameplay Framework in BP (GameMode/State/Player) | 15-bp-gameplay-framework/card.md | 3 | Draft |
+| BR16 — Data Assets/Curves in BP | 16-data-assets-curves/card.md | 3 | Draft |
+| BR17 — Procedural Generation Basics (BP) | 17-procgen-basics-bp/card.md | 3 | Draft |
+| BR18 — VR Basics (BP) | 18-vr-basics-bp/card.md | 3 | Draft |
