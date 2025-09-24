@@ -1,0 +1,14 @@
+/non_niagara_caps__v1/phase_A/A0_on_ramp/card.md
+/non_niagara_caps__v1/phase_A/A0_on_ramp/katas/kata_01.md
+/non_niagara_caps__v1/phase_A/A0_on_ramp/katas/kata_02.md
+/non_niagara_caps__v1/phase_A/A0_on_ramp/katas/kata_03.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/card.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_01.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_02.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_03.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_04.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_05.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_06.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_07.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_08.md
+/non_niagara_caps__v1/phase_A/A1_raii_destructors/katas/kata_09.md
