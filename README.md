@@ -1,4 +1,4 @@
-# ue-kb Repo README — Capsules Workflow (v1.0)
+# Blu-KB Repo README — Capsules Workflow (v1.0)
 
 **Scope:** All capsules (Blueprint, VFX, Non‑Niagara code)  •  **Date:** 2025‑09‑24 (CT)
 
